@@ -1,69 +1,70 @@
-<!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
-{% include _head.html %}
-</head>
+---
+layout: default
+---
+{% for member in site.categories.team %}
+	{% if member.title == page.author %}
+		{% assign author = member %}
+	{% endif %}
+{% endfor %}
 
-<body class="article" itemscope itemtype="http://schema.org/WebPage">
+<div class="bigspacer"></div>
 
-{% include _browser-upgrade.html %}
+<div class="row">
+	<div class="col-md-12">
+		<div class="media">
+			<div class="media-body">
+				<div class="title media-heading">
+					{{ page.title }}
+				</div>
+				<p>
+				<div class="smallhead">
+					{{ page.date | date_to_string }}
+					{% if author %}
+					by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+					{% endif %}		
+				</div>
+			</div>
+		</div>
+	</div>				
+</div>
 
-{% include _navigation.html %}
+<div class="bigspacer"></div>
+<div class="spacer"></div>
 
-{% if page.image.feature %}<div class="image-wrap">
-  <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-  {% if page.image.credit %}<span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>{% endif %}
-</div><!-- /.image-wrap -->{% endif %}
+<div class="row">
+	<div class="col-md-3">
+		{% if page.link %}
+		<div class="smallhead">
+			Link
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-external-link fa-fw"></i>
+			<a class="off" href="{{ page.link }}">{{ page.link | remove: 'http://' | remove: 'https://' | replace: '/', '/<wbr>' | replace: '%', '%<wbr>' }}</a>
+		</div>		
+		<div class="bigspacer"></div>			
+		{% endif %}		
+		<div class="smallhead">
+			Share
+		</div>			
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			{% tweet {{page.url}} {{page.title}} %}
+			{% trackback {{page.url}} %}			
+		</div>		
+	</div>
+	<div class="col-md-8">	
+		<div class="post">
+			{% if page.image %}
+			<img class="offset" src="{{ page.image }}">
+			{% endif %}
+			{{ content }}
+		</div>	
+	</div>			
+	<div class="col-md-1"></div>
+</div>	
 
-<div id="main" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
-  <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-    <div class="headline-wrap">
-      <h1 itemprop="name">{{ page.title }}</h1>
-      <h2>{{ page.tagline }}</h2>
-    </div><!--/ .headline-wrap -->
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-      <hr />
-      <footer role="contentinfo">
-        <div class="article-author-bottom">
-          {% include _author-bio.html %}
-        </div>
-        <p class="byline"><strong>{{ page.title }}</strong> was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>{% if page.modified %} and last modified on <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B %d, %Y" }}</time>{% endif %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></span>.</p>
-      </footer>
-    </div><!-- /.article-wrap -->
-  </article>
-</div><!-- /#main -->
 
-<div class="footer-wrap">
-  {% if site.related_posts.size > 0 %}<div class="related-articles">
-  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/articles">View all articles</a>)</small></h4>
-    <ul>
-    {% for post in site.related_posts limit:3 %}
-      {% assign match = false %}
-      {% for category in post.categories %}
-        {% if page.categories contains category %}
-          {% assign match = true %}
-        {% endif %}
-      {% endfor %}
-      {% if match %}
-      <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-    <hr />
-  </div><!-- /.related-articles -->{% endif %}
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}	        
 
-</body>
-</html>
+
