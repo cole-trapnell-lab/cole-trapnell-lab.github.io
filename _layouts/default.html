@@ -23,7 +23,7 @@
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-26244371-2', 'bedford.io');
+		ga('create', 'UA-26244371-2', 'trapnell.io');
 		ga('send', 'pageview');
 
 	</script>
@@ -38,17 +38,17 @@
 				{% if page.categories.first != 'home' %}
 				<div class="navbar-header">
 					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">bedford lab</a>
+					<a class="navbar-brand" href="/">trapnell lab</a>
 				</div>
 				{% endif %}
 				<ul class="nav navbar-nav navbar-right">
-					{% if page.categories.first == 'blog' %}
-					<li class="active">
-					{% else %}
-					<li>
-					{% endif %}
-					<a href="/blog/">blog</a>
-					</li>
+                    <!-- {% if page.categories.first == 'blog' %}
+                    <li class="active">
+                    {% else %}
+                    <li>
+                    {% endif %}
+                    <a href="/blog/">blog</a>
+                    </li> -->
 					{% if page.categories.first == 'papers' %}
 					<li class="active">
 					{% else %}

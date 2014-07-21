@@ -37,12 +37,12 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
 
-projects:
-  - trvrb/coaltrace
-  - trvrb/stem
-  - trvrb/PACT
-  - trvrb/dynamics-practical
-  - trvrb/antigen
-  - trvrb/haplotypes
-  - trvrb/divergence
-  - trvrb/ancestry
+# projects:
+#   - trvrb/coaltrace
+#   - trvrb/stem
+#   - trvrb/PACT
+#   - trvrb/dynamics-practical
+#   - trvrb/antigen
+#   - trvrb/haplotypes
+#   - trvrb/divergence
+#   - trvrb/ancestry

@@ -1,4 +1,4 @@
-# bedford lab research
+# trapnell lab research
 
 ## Build site
 
@@ -34,8 +34,8 @@ The `layout`, `title` and `author` tags are required, while `link` and `image` a
 
 ## For more information
 
-* Look over the [metadata format guide](http://bedford.io/guide/format/)
-* Look over the [Markdown style guide](http://bedford.io/guide/style/)
+* Look over the [metadata format guide](http://trapnell.io/guide/format/)
+* Look over the [Markdown style guide](http://trapnell.io/guide/style/)
 
 ## License
 
