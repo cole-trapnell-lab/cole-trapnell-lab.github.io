@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: How to map billions of short reads onto genomes
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/trapnell-salzberg-mapping-review.png
 authors: Cole Trapnell, Steven L. Salzberg.
 year: 2009
 ref: Trapnell & Salzberg 2009.

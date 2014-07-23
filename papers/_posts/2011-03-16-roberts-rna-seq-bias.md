@@ -1,13 +1,14 @@
 ---
 layout: paper
 title: Improving RNA-Seq expression estimates by correcting for fragment bias
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/roberts-rna-seq-bias.png
 authors: Adam Roberts, Cole Trapnell, Julie Donaghey, John L. Rinn, Lior Pachter.
 year: 2011
 ref: Roberts et al. 2011.
 journal: "Genome Biology 12:R22."
 pdf: /pdfs/papers/roberts-rna-seq-bias.pdf
 doi: 10.1186/gb-2011-12-3-r22
+projects: Cufflinks
 ---
 
 # Abstract

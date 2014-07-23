@@ -1,13 +1,14 @@
 ---
 layout: paper
 title: Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/trapnell-cufflinks.png
 authors: Cole Trapnell, Brian A. Williams, Geo Pertea, Ali Mortazavi, Gordon Kwan, Marijke J. Van Baren, Steven L. Salzberg, Barbara J. Wold, Lior Pachter.
 year: 2010
 ref: Trapnell et al. 2010.
 journal: "Nature Biotechnology 28 (5): 511-515."
 pdf: /pdfs/papers/trapnell-cufflinks.pdf
 doi: 10.1038/nbt.1621
+projects: Cufflinks
 ---
 
 # Abstract

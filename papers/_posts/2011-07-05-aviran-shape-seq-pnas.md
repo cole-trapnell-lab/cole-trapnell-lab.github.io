@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Modeling and automation of sequencing-based characterization of RNA structure
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/aviran-shape-seq-pnas.png
 authors: Sharon Aviran, Cole Trapnell, Julius B. Lucks, Stefanie A. Mortimer, Shujun Luo, Gary P. Schroth, Jennifer A. Doudna, Adam P. Arkin, Lior Pachter.
 year: 2011
 ref: Aviran et al. 2011.

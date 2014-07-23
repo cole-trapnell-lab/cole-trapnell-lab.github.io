@@ -1,7 +1,6 @@
 ---
 layout: paper
 title: A peer-to-peer blacklisting strategy inspired by leukocyte-endothelial interaction
-image: /images/papers/feder-hsp70-evolvability.png
 authors: Cole Trapnell
 year: 2005
 ref: BC Trapnell, Jr., 2005.

@@ -2,7 +2,7 @@
 ---
 
 @import "/css/bootstrap/bootstrap.less";
-@brand-primary: #DD2D2D;
+@brand-primary: #0066FF;
 @line-height-base: 1.6;
 @navbar-height: 60px;
 @code-color: #586E75;
@@ -38,6 +38,7 @@ h5,
 h6 {
 	font-weight: 300;
 	/* Museo */	
+    font-family: @headings-font-family
 }
 
 .center {
@@ -58,13 +59,13 @@ h6 {
 }
 
 .biglogo {
-	width: 180px;
-	height: 180px;
+	width: 320px;
+	height: 320px;
 	padding: 5px;
 }
 
 .logobox {
-	height: 180px;
+	height: 320px;
 	display: table-cell; 
 	vertical-align: middle;
 }
@@ -73,11 +74,13 @@ h6 {
 .navbar-brand { 
 	font-size: 30px; 
 	font-weight: 100;
+    font-family: @font-family-serif
 	/* Museo */	
 }
 .navbar-nav { 
 	font-size: 30px; 
 	font-weight: 100;
+    font-family: @font-family-serif
 	/* Museo */	
 }
 .navbar-text {
@@ -93,6 +96,7 @@ h6 {
 	line-height: 65px;	
 	font-weight: 100;
 	/* Museo */	
+    font-family: @headings-font-family
 }
 
 .title {
@@ -100,6 +104,7 @@ h6 {
 	line-height: 50px;	
 	font-weight: 100;
 	/* Museo */	
+    font-family: @headings-font-family
 }
 
 .bighead {
@@ -107,6 +112,7 @@ h6 {
 	font-weight: 300;
 	line-height:36px;
 	/* Museo */	
+    font-family: @headings-font-family
 }
 
 .head {
@@ -114,6 +120,7 @@ h6 {
 	font-weight: 300;
 	line-height:30px;
 	/* Museo */	
+    font-family: @headings-font-family
 }
 
 .smallhead {
@@ -121,6 +128,7 @@ h6 {
 	font-weight: 300;
 	line-height: 23px;
 	/* Museo */	
+    font-family: @font-family-base
 }
 
 .note {
@@ -128,6 +136,7 @@ h6 {
 	font-weight: 300;
 	line-height: 18px;
 	/* Museo */	
+    font-family: @font-family-base
 }
 
 .smallnote {
@@ -135,23 +144,28 @@ h6 {
 	font-weight: 300;
 	line-height: 16px;
 	/* Museo */	
+    font-family: @font-family-base
 }
 
 .text-gray {
 	color: @gray-light;
+    font-family: @font-family-base
 }
 
 .text-dark-gray {
 	color: @gray;
+    font-family: @font-family-base
 }
 
 // other
 body {
 	font-weight: 300;
+    font-family: @font-family-base
 }
 
 p {
 	font-weight: 300;
+    font-family: @font-family-base
 }
 
 .hugespacer {

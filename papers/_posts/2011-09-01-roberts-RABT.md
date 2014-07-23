@@ -1,13 +1,14 @@
 ---
 layout: paper
 title: Identification of novel transcripts in annotated genomes using RNA-Seq
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/roberts-RABT.png
 authors: Adam Roberts, Harold Pimentel, Cole Trapnell*, Lior Pachter*.
 year: 2011
 ref: Roberts et al. 2011.
 journal: "Bioinformatics 27 (17): 2325-2329."
 pdf: /pdfs/papers/roberts-RABT.pdf
 doi: 10.1093/bioinformatics/btr355
+projects: Cufflinks
 ---
 
 # Abstract

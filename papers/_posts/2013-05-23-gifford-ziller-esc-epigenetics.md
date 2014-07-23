@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Transcriptional and epigenetic dynamics during specification of human embryonic stem cells
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/gifford-ziller-esc-epigenetics.png
 authors: Casey A. Gifford, Michael J. Ziller, Hongcang Gu, Cole Trapnell, Julie Donaghey, Alexander Tsankov, Alex K. Shalek, David R. Kelley, Alexander A. Shishkin, Robbyn Issner, Xiaolan Zhang, Michael Coyne, Jennifer L. Fostel, Laurie Holmes, Jim Meldrim, Mitchell Guttman, Charles Epstein, Hongkun Park, Oliver Kohlbacher, John Rinn, Andreas Gnirke, Eric S. Lander, Bradley E. Bernstein, Alexander Meissner.
 year: 2013
 ref: Gifford, Ziller et al. 2013.

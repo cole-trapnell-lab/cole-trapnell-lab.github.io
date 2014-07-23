@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Ultrafast and memory-efficient alignment of short DNA sequences to the human genome
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/langmead-bowtie.png
 authors: Ben Langmead, Cole Trapnell, Mihai Pop, Steven L. Salzberg.
 year: 2009
 ref: Langmead et al. 2009.

@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Genome sequence and rapid evolution of the rice pathogen Xanthomonas oryzae pv. oryzae PXO99A
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/salzberg-xanthomonas.png
 authors: Steven L. Salzberg, Daniel D. Sommer, Michael C. Schatz, Adam M. Phillippy, Pablo D. Rabinowicz, Seiji Tsuge, Ayako Furutani, Hirokazu Ochiai, Arthur L. Delcher, David Kelley, Ramana Madupu, Daniela Puiu, Diana Radune, Martin Shumway, Cole Trapnell, Gudlur Aparna, Gopaljee Jha, Alok Pandey, Prabhu B. Patil, Hiromichi Ishihara, Damien F. Meyer, Boris Szurek, Valerie Verdier, Ralf Koebnik, J Maxwell Dow, Robert P. Ryan, Hisae Hirata, Shinji Tsuyumu, Sang Won Lee, Pamela C. Ronald, Ramesh V. Sonti, Marie-Anne Van Sluys, Jan E. Leach, Frank F. White, Adam J. Bogdanove.
 year: 2008
 ref: Salzberg et al. 2008.

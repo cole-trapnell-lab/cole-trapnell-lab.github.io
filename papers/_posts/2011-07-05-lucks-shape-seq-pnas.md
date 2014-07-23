@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: "Multiplexed RNA structure characterization with selective 2'-hydroxyl acylation analyzed by primer extension sequencing (SHAPE-Seq)"
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/lucks-shape-seq-pnas.png
 authors: Julius B. Lucks, Stefanie A. Mortimer, Cole Trapnell, Shujun Luo, Sharon Aviran, Gary P. Schroth, Lior Pachter, Jennifer A. Doudna, Adam P. Arkin.
 year: 2011
 ref: Lucks et al. 2011.

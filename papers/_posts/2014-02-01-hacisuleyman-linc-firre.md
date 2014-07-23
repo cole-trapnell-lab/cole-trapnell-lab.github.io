@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Topological organization of multichromosomal regions by the long intergenic noncoding RNA Firre
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/hacisuleyman-linc-firre.png
 authors: Ezgi Hacisuleyman, Loyal A. Goff, Cole Trapnell, Adam Williams, Jorge Henao-Mejia, Lei Sun, Patrick McClanahan, David G. Hendrickson, Martin Sauvageau, David R. Kelley, Michael Morse, Jesse Engreitz, Eric S. Lander, Mitch Guttman, Harvey F. Lodish, Richard Flavell, Arjun Raj, John L. Rinn.
 year: 2014
 ref: Hacisuleyman, Goff et al. 2014.

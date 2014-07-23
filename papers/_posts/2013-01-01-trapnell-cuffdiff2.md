@@ -1,13 +1,14 @@
 ---
 layout: paper
 title: Differential analysis of gene regulation at transcript resolution with RNA-seq
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/trapnell-cuffdiff2.png
 authors: Cole Trapnell, David G. Hendrickson, Martin Sauvageau, Loyal Goff, John L. Rinn, Lior Pachter.
 year: 2013
 ref: Trapnell, Hendrickson et al. 2013.
 journal: "Nature Biotechnology 31: 46-53."
-pdf: /pdfs/papers/feder-hsp70-evolvability.pdf
+pdf: /pdfs/papers/trapnell-cuffdiff2.pdf
 doi: 10.1038/nbt.2450
+projects: Cufflinks
 ---
 
 # Abstract

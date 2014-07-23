@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Targeted RNA sequencing reveals the deep complexity of the human transcriptome
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/mercer-capture-seq.png
 authors: Tim R. Mercer, Daniel J. Gerhardt, Marcel E. Dinger, Joanna Crawford, Cole Trapnell, Jeffrey A. Jeddeloh, John S. Mattick, John L Rinn.
 year: 2012
 ref: Mercer et al. 2012.

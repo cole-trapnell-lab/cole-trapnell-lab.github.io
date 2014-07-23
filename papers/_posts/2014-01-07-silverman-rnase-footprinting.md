@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: RNase-mediated protein footprint sequencing reveals protein-binding sites throughout the human transcriptome
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/silverman-rnase-footprinting.png
 authors: Ian M. Silverman, Fan Li, Anissa Alexander, Loyal Goff, Cole Trapnell, John L. Rinn, Brian D. Gregory.
 year: 2014
 ref: Silverman et al. 2014.

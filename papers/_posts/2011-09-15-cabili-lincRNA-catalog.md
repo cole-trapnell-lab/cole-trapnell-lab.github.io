@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Integrative annotation of human large intergenic noncoding RNAs reveals global properties and specific subclasses
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/cabili-lincRNA-catalog.png
 authors: Moran N. Cabili, Cole Trapnell, Loyal Goff, Magdalena Koziol, Barbara Tazon-Vega, Aviv Regev, John L. Rinn.
 year: 2011
 ref: Cabili et al. 2011.

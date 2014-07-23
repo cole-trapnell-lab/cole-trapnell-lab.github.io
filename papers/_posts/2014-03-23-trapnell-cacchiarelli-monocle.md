@@ -1,13 +1,14 @@
 ---
 layout: paper
 title: The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/trapnell-cacchiarelli-monocle.png
 authors: Cole Trapnell, Davide Cacchiarelli, Jonna Grimsby, Prapti Pokharel, Shuqiang Li, Michael Morse, Niall J. Lennon, Kenneth J. Livak, Tarjei S. Mikkelsen, John L. Rinn.
 year: 2014
 ref: Trapnell, Cacchiarelli et al. 2014.
 journal: "Nature Biotechnology 32: 381–386."
 pdf: /pdfs/papers/trapnell-cacchiarelli-monocle.pdf
 doi: 10.1038/nbt.2859
+projects: Monocle
 ---
 
 # Abstract

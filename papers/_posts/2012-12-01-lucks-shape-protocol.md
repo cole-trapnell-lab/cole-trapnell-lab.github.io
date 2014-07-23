@@ -1,7 +1,6 @@
 ---
 layout: paper
 title: "SHAPE–Seq: High‐Throughput RNA Structure Analysis"
-image: /images/papers/feder-hsp70-evolvability.png
 authors: Stefanie A. Mortimer, Cole Trapnell, Sharon Aviran, Lior Pachter, Julius B. Lucks.
 year: 2012
 ref: Mortimer et al. 2012.

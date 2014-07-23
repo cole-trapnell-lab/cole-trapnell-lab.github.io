@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Binding Site Turnover Produces Pervasive Quantitative Changes in Transcription Factor Binding between Closely Related Drosophila Species
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/bradley-binding-sites.png
 authors: Robert K. Bradley, Xiao-Yong Li, Cole Trapnell, Stuart Davidson, Lior Pachter, Hou Cheng Chu, Leath A. Tonkin, Mark D. Biggin, Michael B. Eisen.
 year: 2010
 ref: Bradley et al. 2010.

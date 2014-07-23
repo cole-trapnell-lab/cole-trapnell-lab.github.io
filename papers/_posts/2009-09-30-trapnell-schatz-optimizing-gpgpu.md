@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Optimizing data intensive GPGPU computations for DNA sequence alignment
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/trapnell-schatz-optimizing-gpgpu.png
 authors: Cole Trapnell, Michael C. Schatz.
 year: 2009
 ref: Trapnell & Schatz, 2009.

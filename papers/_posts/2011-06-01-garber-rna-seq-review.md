@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Computational methods for transcriptome annotation and quantification using RNA-seq
-image: /images/papers/feder-hsp70-evolvability.png
+image: /images/papers/garber-rna-seq-review.png
 authors: Manuel Garber, Manfred G. Grabherr, Mitchell Guttman, Cole Trapnell.
 year: 2011
 ref: Garber et al. 2011.
