@@ -13,16 +13,10 @@ push:
 	git push origin master;
 
 build: clean
-	which jekyll
-	which ruby
-	gem environment
 	jekyll build 
 	cp -R _site/* $(GH_PAGES_DIR)/;
-
-copy:
 		
 serve: clean
 	jekyll serve --watch
 
-GH_BUILD_DIR = ../jekyll_site
 GH_PAGES_DIR = ../compiled_site
