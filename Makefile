@@ -18,6 +18,7 @@ build: clean
 
 
 serve: clean
+	cd $(GH_PAGES_DIR); \
 	jekyll serve --watch
 
 GH_PAGES_DIR = ../compiled_site
