@@ -17,7 +17,7 @@ build: clean
 	cp -R _site/* $(GH_PAGES_DIR)/;
 
 
-serve: clean
+serve:
 	cd $(GH_PAGES_DIR); \
 	jekyll serve --watch
 
