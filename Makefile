@@ -15,7 +15,8 @@ push:
 build: clean
 	jekyll build 
 	cp -R _site/* $(GH_PAGES_DIR)/;
-		
+
+
 serve: clean
 	jekyll serve --watch
 
