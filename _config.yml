@@ -10,6 +10,11 @@ redcarpet:
    - superscript
    - strikethrough
 
+url:
+  http://cole-trapnell-lab.github.io
+
+#analytics: 'UA-58618307-1'
+
 pagination: true
 paginate: 5
 
