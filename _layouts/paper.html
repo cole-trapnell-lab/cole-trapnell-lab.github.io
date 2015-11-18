@@ -55,6 +55,17 @@ layout: default
 			</div>		
 			<div class="bigspacer"></div>							
 			{% endif %}	
+			{% if page.externurl %}
+			<div class="smallhead">
+				URL
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://{{ page.externurl }}">Paper at {{ page.journal }}</a>
+			</div>		
+			<div class="bigspacer"></div>							
+			{% endif %}	
 			{% if page.doi %}
 			<div class="smallhead">
 				DOI

@@ -63,7 +63,12 @@ categories:
         {% endif %}
 				
 	</div>
-	<div class="col-md-8">				
+	<div class="col-md-8">	
+
+		{% if page.image %}
+		<img class="pull-left pad-right media-object" src="{{ page.image }}">
+		{% endif %}			
+		
 		<div class="post">
 			{{ content }}
 		</div>

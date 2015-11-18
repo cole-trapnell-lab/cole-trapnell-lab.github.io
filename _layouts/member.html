@@ -51,6 +51,17 @@ layout: default
 		</div>		
 		<div class="bigspacer"></div>				
 		{% endif %}	
+		{% if member.pubmed %}		
+		<div class="smallhead">
+			PubMed
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-book fa-fw"></i>
+			<a class="off" href="http://www.ncbi.nlm.nih.gov/{{ member.pubmed }}">{{ member.title }}</a>
+		</div>		
+		<div class="bigspacer"></div>				
+		{% endif %}	
 		{% if member.github %}
 		<div class="smallhead">
 			GitHub
