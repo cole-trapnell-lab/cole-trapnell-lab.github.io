@@ -5,14 +5,98 @@ categories:
  - projects
 ---
 
+<div class="row"> <center> <div class="title"> Biology </div> </center> </div>
 <div class="bigspacer"></div>
 {% for project in site.categories.projects %}
-
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
+    {% if project.project_type contains "Biology" %}
 		<div class="col-md-6 projectbox">
+		  	<a class="pull-right" href="{{ paper.url }}">
+    			<img width=100 class="media-object" src="{{ project.image }}">
+  			</a>
 			<div class="head">
 				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
-			</div>	
+			</div>
+			<div class="smallspacer"></div>
+			<div class="note">
+				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="bigspacer"></div>
+		</div>
+    	{% endif %}	
+{% endfor %}
+
+<div class="row"> <center>  </center> </div>
+<div class="row"> <center> <div class="title"> Technology </div> </center> </div>
+<div class="bigspacer"></div>
+{% for project in site.categories.projects %}
+    {% if project.project_type contains "Technology" %}
+    <!-- {% cycle 'add rows': '<div class="row">', nil, nil %} -->
+
+		<div class="col-md-6 projectbox">
+		  	<a class="pull-right" href="{{ paper.url }}">
+    			<img width=100 class="media-object" src="{{ project.image }}">
+  			</a>
+			<div class="head">
+				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="note">
+				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="bigspacer"></div>
+		</div>
+
+    <!-- {% cycle 'close rows': nil, nil, '</div>' %} -->
+    {% endif %}	
+{% endfor %}
+
+<div class="row"> <center>  </center> </div>
+<div class="bigspacer"></div>
+<div class="row"> <center> <div class="title"> Software </div> </center> </div>
+<div class="bigspacer"></div>
+{% for project in site.categories.projects %}
+	{% if project.project_type contains "Software" %}
+    <!-- {% cycle 'add rows': '<div class="row">', nil, nil %} -->
+
+		<div class="col-md-6 projectbox">
+		  	<a class="pull-right" href="{{ paper.url }}">
+    			<img width=100 class="media-object" src="{{ project.image }}">
+  			</a>
+			<div class="head">
+				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="note">
+				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
+			</div>
+			<div class="smallspacer"></div>
+			<div class="bigspacer"></div>
+		</div>
+    <!-- {% cycle 'close rows': nil, nil, '</div>' %} -->
+    	{% endif %}	
+{% endfor %}
+
+
+<!-- 
+<div class="bigspacer"></div>
+<center>
+<div class="title">
+Biology
+</div>
+</center>
+<div class="bigspacer"></div>
+{% for project in site.categories.projects %}
+	{% if project.category contains "Biology" %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+		<div class="col-md-6 projectbox">
+		  	<a class="pull-right" href="{{ paper.url }}">
+    			<img width=100 class="media-object" src="{{ project.image }}">
+  			</a>
+			<div class="head">
+				<a href="{{ project.url }}" class="off">{{ project.title }}</a>
+			</div>
 			<div class="smallspacer"></div>
 			<div class="note">
 				<a href="{{ project.url }}" class="off">{{ project.description }}</a>
@@ -21,5 +105,8 @@ categories:
 			<div class="bigspacer"></div>
 		</div>
     {% cycle 'close rows': nil, nil, '</div>' %}
+	{% endif %}	
 {% endfor %}
 {% cycle 'close rows': nil, '</div>', '</div>' %}	
+ -->
+ 

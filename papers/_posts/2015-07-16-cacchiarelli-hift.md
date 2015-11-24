@@ -9,7 +9,7 @@ journal: "Cell 162:2 412–424"
 pdf: /pdfs/papers/cacchiarelli-hift.pdf
 doi: 10.1016/j.cell.2015.06.016
 #externurl: "www.cell.com/cell/abstract/S0092-8674(15)00700-X"
-#projects: Single-cell ATAC-Seq
+projects: Pluripotency and reprogramming
 ---
 
 # Abstract

@@ -8,6 +8,7 @@ ref: Suzuki et al. 2014.
 journal: "Nature 514: 450-453."
 pdf: /pdfs/papers/suzuki-pmt.pdf
 doi: doi:10.1038/nature13807
+projects: Plasticity in macrophages
 ---
 
 # Abstract

@@ -14,7 +14,7 @@ categories:
 
 <div class="row">
 	<div class="col-md-12">
-		<div class="bigtitle">
+		<div class="title">
 			<ol class="breadcrumb">
 			{% assign crumbs = page.title | breadcrumb_array %}
 			{% for crumb in crumbs %}
@@ -63,11 +63,7 @@ categories:
         {% endif %}
 				
 	</div>
-	<div class="col-md-8">	
-
-		{% if page.image %}
-		<img class="pull-left pad-right media-object" src="{{ page.image }}">
-		{% endif %}			
+	<div class="col-md-8">			
 		
 		<div class="post">
 			{{ content }}

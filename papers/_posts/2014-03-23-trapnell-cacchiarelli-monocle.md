@@ -8,7 +8,7 @@ ref: Trapnell, Cacchiarelli et al. 2014.
 journal: "Nature Biotechnology 32: 381–386."
 pdf: /pdfs/papers/trapnell-cacchiarelli-monocle.pdf
 doi: 10.1038/nbt.2859
-projects: Monocle
+projects: Monocle, Single-cell trajectory analysis
 ---
 
 # Abstract
