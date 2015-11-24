@@ -3,7 +3,7 @@ deploy: build push
 .PHONY: clean
 clean:
 	rm -rf _site/*
-	cd $(GH_PAGES_DIR); \
+	-cd $(GH_PAGES_DIR); \
 	git rm -rf *;
 
 push:
