@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Serena Liu
-position: Graduate student
+position: Graduate Student
 handle: selenay
 email: selenay@uw.edu
 #github: Xiaojieqiu

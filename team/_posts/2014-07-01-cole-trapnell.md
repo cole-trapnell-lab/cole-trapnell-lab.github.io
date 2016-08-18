@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Cole Trapnell
-position: Principal investigator
+position: Principal Investigator
 handle: cole
 email: coletrap@uw.edu
 github: ctrapnell
