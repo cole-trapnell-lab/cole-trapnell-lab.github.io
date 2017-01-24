@@ -1,8 +1,8 @@
 ---
 layout: paper
 title: Single-cell transcriptome sequencing recent advances and remaining challenges
+image: /images/papers/liu-review.png
 authors: Serena Liu, Cole Trapnell
-image: /images/papers/liu_review.png
 year: 2016
 ref: Liu. 2016.
 journal: "F1000Res v.5"
