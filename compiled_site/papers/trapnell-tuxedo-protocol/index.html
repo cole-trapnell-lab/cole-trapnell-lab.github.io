@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>	
+			
+	<!-- Google Analytics -->	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58618307-1', 'cole-trapnell-lab.github.io');
+		ga('send', 'pageview');
+
+	</script>
+			
+</head>
+
+<body>
+	
+	<div id="header">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
+			<div class="container">	
+				
+				<div class="navbar-header">
+					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
+					<a class="navbar-brand" href="/">Trapnell Lab</a>
+				</div>
+				
+				<ul class="nav navbar-nav navbar-right">
+                    <!-- 
+                    <li>
+                    
+                    <a href="/blog/">blog</a>
+                    </li> -->
+					
+					<li class="active">
+					
+					<a href="/papers/">Papers</a></li>
+					
+					<li>
+					
+					<a href="/projects/">Projects</a></li>	  
+					
+					<li>
+					
+					<a href="/team/">People</a></li>	  	  
+				</ul>
+			</div>
+		</nav>	
+	</div>
+	
+	<div class="container">	
+		
+	<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object" src="/images/papers/trapnell-tuxedo-protocol.png">
+			
+			<div class="media-body">
+				<div class="title media-heading">
+					Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks
+				</div>
+				<p>
+				<div class="smallhead">
+					Cole Trapnell,	Adam Roberts, Loyal Goff, Geo Pertea, Daehwan Kim, David R. Kelley, Harold Pimentel, Steven L. Salzberg, John L. Rinn, Lior Pachter.
+					2012.
+                </div>
+                <div class="smallhead">
+					Nature Protocols 7: 562–578.
+				</div>
+			</div>
+		</div>
+	</div>				
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note">
+					
+			<div class="smallhead">
+				PDF
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/pdfs/papers/trapnell-tuxedo-protocol.pdf">trapnell-tuxedo-protocol.pdf</a>
+			</div>		
+			<div class="bigspacer"></div>							
+					
+				
+				
+			
+			<div class="smallhead">
+				DOI
+			</div>	
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1086/342350">10.1086/342350</a>
+			</div>		
+			<div class="bigspacer"></div>							
+							
+			
+			<div class="smallhead">
+				Share
+			</div>			
+<!-- 			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/trapnell-tuxedo-protocol/&text=Differential%20gene%20and%20transcript%20expression%20analysis%20of%20RNA-seq%20experiments%20with%20TopHat%20and%20Cufflinks" target="_blank">tweet</a>
+									
+			</div>		 -->			
+			</div>
+	</div>
+	<div class="col-md-8">	
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<p>Recent advances in high-throughput cDNA sequencing (RNA-seq) can reveal new genes and splice variants and quantify expression genome-wide in a single assay. The volume and complexity of data from RNA-seq experiments necessitate scalable, fast and mathematically principled analysis software. TopHat and Cufflinks are free, open-source software tools for gene discovery and comprehensive expression analysis of high-throughput mRNA sequencing (RNA-seq) data. Together, they allow biologists to identify new genes and new splice variants of known ones, as well as compare gene and transcript expression under two or more conditions. This protocol describes in detail how to use TopHat and Cufflinks to perform such analyses. It also covers several accessory tools and utilities that aid in managing data, including CummeRbund, a tool for visualizing RNA-seq analysis results. Although the procedure assumes basic informatics skills, these tools assume little to no background with RNA-seq analysis and are meant for novices and experts alike. The protocol begins with raw sequencing reads and produces a transcriptome assembly, lists of differentially expressed and regulated genes and transcripts, and publication-quality visualizations of analysis results. The protocol’s execution time depends on the volume of transcriptome sequencing data and available computing resources but takes less than 1 d of computer time for typical experiments and ~1 h of hands-on time.</p>
+
+		</div>	
+	</div>			
+	<div class="col-md-1"></div>
+</div>	
+	
+	</div>
+		
+	<div id="footer"><span style="display:none">foo</span></div>
+	    		
+	<!-- MathJax support -->
+	<script type="text/javascript"
+	 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- MathJax config -->
+	<script src="/js/mathjax.config.js"></script>	
+			
+</body>
+</html>
+

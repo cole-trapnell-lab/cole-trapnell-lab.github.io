@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Style</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>	
+			
+	<!-- Google Analytics -->	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58618307-1', 'cole-trapnell-lab.github.io');
+		ga('send', 'pageview');
+
+	</script>
+			
+</head>
+
+<body>
+	
+	<div id="header">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
+			<div class="container">	
+				
+				<div class="navbar-header">
+					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
+					<a class="navbar-brand" href="/">Trapnell Lab</a>
+				</div>
+				
+				<ul class="nav navbar-nav navbar-right">
+                    <!-- 
+                    <li>
+                    
+                    <a href="/blog/">blog</a>
+                    </li> -->
+					
+					<li>
+					
+					<a href="/papers/">Papers</a></li>
+					
+					<li>
+					
+					<a href="/projects/">Projects</a></li>	  
+					
+					<li>
+					
+					<a href="/team/">People</a></li>	  	  
+				</ul>
+			</div>
+		</nav>	
+	</div>
+	
+	<div class="container">	
+		
+	<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="bigtitle">
+			Style
+		</div>	
+	</div>
+</div>	
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-2">
+	</div>
+	<div class="col-md-8">	
+		<div class="post">
+			<h2 id="introduction">Introduction</h2>
+
+<p>This is a style guide to help in formatting Markdown content for the site.  In general, I’ve tried to adhere to GitHub style, with the intention that anything that renders on GitHub will render here as well.  The following isn’t meant to be exhaustive, just a reminder of what’s possible with Markdown.</p>
+
+<hr />
+
+<h2 id="headings">Headings</h2>
+
+<pre><code># Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+</code></pre>
+
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+
+<hr />
+
+<h2 id="text-styling">Text styling</h2>
+
+<pre><code>Italicize text by surrounding it in *asterisks* or _underscores_.
+Bold text by surrounding it with **double asterisks** or __double underscores__.
+Combine with **_double asterisks plus underscores_**.
+Strike-through text with ~~double tildes~~.
+Superscript contiguous text with carrots like x^2y, surround with parentheses for more complex expressions like x^(2y + 3z).
+</code></pre>
+
+<p>Italicize text by surrounding it in <em>asterisks</em> or <em>underscores</em>.</p>
+
+<p>Bold text by surrounding it with <strong>double asterisks</strong> or <strong>double underscores</strong>.</p>
+
+<p>Combine with <strong><em>double asterisks plus underscores</em></strong>.</p>
+
+<p>Strike-through text with <del>double tildes</del>.</p>
+
+<p>Superscript contiguous text with carrots like x^2y, surround with parentheses for more complex expressions like x^(2y + 3z).</p>
+
+<hr />
+
+<h2 id="lists">Lists</h2>
+
+<pre><code>* Thing one with an asterisk
++ Thing two with a plus
+- Thing three with a minus
+
+1. The first order of business
+2. The second order of business
+  * The first part of the 2nd order
+  * The second part of the 2nd order
+3. The third order of business
+</code></pre>
+
+<ul>
+  <li>Thing one with an asterisk</li>
+  <li>Thing two with a plus</li>
+  <li>Thing three with a minus</li>
+</ul>
+
+<ol>
+  <li>The first order of business</li>
+  <li>The second order of business
+    <ul>
+      <li>The first part of the 2nd order</li>
+      <li>The second part of the 2nd order</li>
+    </ul>
+  </li>
+  <li>The third order of business</li>
+</ol>
+
+<hr />
+
+<h2 id="links">Links</h2>
+
+<pre><code>[This is an external link to Google](http://www.google.com/)
+[This is a relative link to elsewhere in the site](/projects/)
+</code></pre>
+
+<p><a href="http://www.google.com/">This is an external link to Google</a></p>
+
+<p><a href="/projects/">This is a relative link to elsewhere in the site</a></p>
+
+<hr />
+
+<h2 id="images">Images</h2>
+
+<p>Images work like links, but with a prefaced !.  This supports SVG as well PNG, JPG, etc…</p>
+
+<pre><code>![](/images/papers/trapnell-canalization.png)
+![An image with alt text](/images/papers/trapnell-global-migration.png)
+![](/images/logo.svg)
+</code></pre>
+<p><img src="/images/papers/trapnell-canalization.png" alt="" /></p>
+
+<p><img src="/images/papers/trapnell-global-migration.png" alt="An image with alt text" /></p>
+
+<p><img src="/images/logo.svg" alt="" /></p>
+
+<hr />
+
+<p>Can always drop in HTML, so sizing adjustments can be done with:</p>
+
+<pre><code>&lt;img style="width:30px;" src="/images/logo.svg"/&gt;
+</code></pre>
+
+<p><img style="width:30px;" src="/images/logo.svg" /></p>
+
+<hr />
+
+<h2 id="code">Code</h2>
+
+<pre><code>A bit of inline monospaced font can be made `by surrounding text with backticks`.
+</code></pre>
+
+<p>A bit of inline monospaced font can be made <code>by surrounding text with backticks</code>.</p>
+
+<hr />
+
+<p>Larger code blocks can be made by surrounding the block with three backticks <code>```</code>, and code can be highlighted by specifying language after the backticks, like so:</p>
+
+<pre><code>```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```ruby
+s = "Ruby syntax highlighting";
+puts s
+```
+</code></pre>
+
+<pre><code class="language-javascript">var s = "JavaScript syntax highlighting";
+alert(s);
+</code></pre>
+
+<pre><code class="language-ruby">s = "Ruby syntax highlighting";
+puts s
+</code></pre>
+
+<hr />
+
+<h2 id="tables">Tables</h2>
+
+<pre><code>column A | column B | column C | column D
+-------- | -------- | -------- | --------
+1A       | 1B       | 1C       | 1D
+2A       | 2B       | 2C       | 2D
+3A       | 3B       | 3C       | 3D
+</code></pre>
+
+<table>
+  <thead>
+    <tr>
+      <th>column A</th>
+      <th>column B</th>
+      <th>column C</th>
+      <th>column D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1A</td>
+      <td>1B</td>
+      <td>1C</td>
+      <td>1D</td>
+    </tr>
+    <tr>
+      <td>2A</td>
+      <td>2B</td>
+      <td>2C</td>
+      <td>2D</td>
+    </tr>
+    <tr>
+      <td>3A</td>
+      <td>3B</td>
+      <td>3C</td>
+      <td>3D</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="blockquotes">Blockquotes</h2>
+
+<pre><code>&gt; The data we have is not the data we want, and the data we need is not the data we have.
+</code></pre>
+
+<blockquote>
+  <p>The data we have is not the data we want, and the data we need is not the data we have.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="equations">Equations</h2>
+
+<p>Equations are rendered using MathJax and take the follow LaTeX syntax.  In order not to cause conflicts LaTeX equation delimiters must be surrounded by code ticks.</p>
+
+<pre><code>Inline equations: `\( \dot{x} = \sigma(y-x) \)` or `$ \dot{y} = \rho x - y - xz $`
+
+Displayed equations: 
+`\[ \mathrm{Pr}(k)   = {n \choose k} p^k (1-p)^{ n-k} \]` 
+or 
+`$$ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) $$`
+</code></pre>
+
+<p>Inline equations: <code>\( \dot{x} = \sigma(y-x) \)</code> or <code>$ \dot{y} = \rho x - y - xz $</code></p>
+
+<p>Displayed equations: 
+<code>\[ \mathrm{Pr}(k)   = {n \choose k} p^k (1-p)^{ n-k} \]</code> 
+or 
+<code>$$ \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right) $$</code></p>
+
+<hr />
+
+<h2 id="horizontal-rule">Horizontal rule</h2>
+
+<p>Use three of more hyphens, asterisks or underscores.</p>
+
+<pre><code>***
+---
+___
+</code></pre>
+
+<hr />
+<hr />
+<hr />
+
+<h2 id="line-breaks">Line breaks</h2>
+
+<pre><code>Here's a line for us to start with.
+
+This line is separated by two newlines, so it will be a separate paragraph.
+
+This line is also a separate paragraph, though...
+Adding a single line break does not create a new paragraph.
+</code></pre>
+
+<p>Here’s a line for us to start with.</p>
+
+<p>This line is separated by two newlines, so it will be a separate paragraph.</p>
+
+<p>This line is also a separate paragraph, though…
+Adding a single line break does not create a new paragraph.</p>
+
+		</div>	
+	</div>			
+	<div class="col-md-2"></div>
+</div>	
+
+
+
+
+
+	
+	</div>
+		
+	<div id="footer"><span style="display:none">foo</span></div>
+	    		
+	<!-- MathJax support -->
+	<script type="text/javascript"
+	 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- MathJax config -->
+	<script src="/js/mathjax.config.js"></script>	
+			
+</body>
+</html>
+
