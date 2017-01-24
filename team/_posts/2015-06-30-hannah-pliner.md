@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hannah Pliner
-position: Graduate student
+position: Graduate Student
 handle: hpliner
 email: hpliner@uw.edu
 github: hpliner

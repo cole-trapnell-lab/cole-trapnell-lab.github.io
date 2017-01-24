@@ -1,5 +1,6 @@
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+#pygments: true
+highlighter: pygments
 permalink: /:categories/:title/
 
 redcarpet: 

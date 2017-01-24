@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Sanjay Srivatsan
-position: Graduate student
+position: Graduate Student
 handle: sajays
 email: sanjays@uw.edu
 github: sanjayrsrivatsan
