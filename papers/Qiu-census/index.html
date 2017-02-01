@@ -123,7 +123,7 @@
 			</div>			
 <!-- 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/qiu-census/&text=Single-cell%20mRNA%20quantification%20and%20differential%20analysis%20with%20Census" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/Qiu-census/&text=Single-cell%20mRNA%20quantification%20and%20differential%20analysis%20with%20Census" target="_blank">tweet</a>
 									
 			</div>		 -->			
 			</div>
@@ -133,6 +133,9 @@
 			<h1 id="abstract">Abstract</h1>
 
 <p>Single-cell gene expression studies promise to reveal rare cell types and cryptic states, but the high variability of single-cell RNA-seq measurements frustrates efforts to assay transcriptional differences between cells. We introduce the Census algorithm to convert relative RNA-seq expression levels into relative transcript counts without the need for experimental spike-in controls. Analyzing changes in relative transcript counts led to dramatic improvements in accuracy compared to normalized read counts and enabled new statistical tests for identifying developmentally regulated genes. Census counts can be analyzed with widely used regression techniques to reveal changes in cell-fate-dependent gene expression, splicing patterns and allelic imbalances. We reanalyzed single-cell data from several developmental and disease studies, and demonstrate that Census enabled robust analysis at multiple layers of gene regulation. Census is freely available through our updated single-cell analysis toolkit, Monocle 2.</p>
+
+<h3 id="notes">Notes</h3>
+<p>We’ve received email from a reader wondering why the equation for the number of cDNAs per cell shown in Figure 1A is not the same as the equation in the “Census” section of the online methods. Briefly, the answer is that because of superlinear amplification of full-length cDNAs during most protocols, the equation in Figure 1A often overestimates the initial cDNA content of each cell. The expression in the online methods is alternative formula provides an underestimate, but often one closer to the truth than the equation in the cartoon. We’ve clarified this point in the “Census” section of the Monocle 2 <a href="http://bioconductor.org/packages/devel/bioc/vignettes/monocle/inst/doc/monocle-vignette.pdf">vignette</a>.</p>
 
 		</div>	
 	</div>			
