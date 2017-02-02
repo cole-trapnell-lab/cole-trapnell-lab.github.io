@@ -10,7 +10,7 @@ push:
 	cd $(GH_PAGES_DIR); \
 	git add --all; \
 	git commit -m "Updated the site."; \
-	git push origin master;
+	git push origin master --force;
 
 build: clean
 	jekyll build 
