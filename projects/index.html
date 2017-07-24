@@ -1,15 +1,17 @@
 ---
 layout: default
 title: Trapnell lab / projects
-categories: 
+categories:
  - projects
 ---
 
-<div class="row"> <center> <div class="title"> Biology </div> </center> </div>
-<div class="bigspacer"></div>
+
+<div class="row featurette">
+<div class="col-md-3"> <div class="title"> Biology </div></div>
+<div class="col-md-9">
 {% for project in site.categories.projects %}
     {% if project.project_type contains "Biology" %}
-		<div class="col-md-6 projectbox">
+		<div class="col-md-12 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>
@@ -23,17 +25,23 @@ categories:
 			<div class="smallspacer"></div>
 			<div class="bigspacer"></div>
 		</div>
-    	{% endif %}	
+    	{% endif %}
 {% endfor %}
+</div>
+</div>
 
-<div class="row"> <center>  </center> </div>
-<div class="row"> <center> <div class="title"> Technology </div> </center> </div>
-<div class="bigspacer"></div>
+
+<hr class="featurette-divider">
+
+<!-- <div class="bigspacer"></div>
+<div class="bigspacer"></div> -->
+
+<div class="row featurette">
+<div class="col-md-3"> <div class="title"> Technology </div></div>
+<div class="col-md-9">
 {% for project in site.categories.projects %}
     {% if project.project_type contains "Technology" %}
-    <!-- {% cycle 'add rows': '<div class="row">', nil, nil %} -->
-
-		<div class="col-md-6 projectbox">
+		<div class="col-md-12 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>
@@ -46,21 +54,24 @@ categories:
 			</div>
 			<div class="smallspacer"></div>
 			<div class="bigspacer"></div>
+      <div class="bigspacer"></div>
 		</div>
-
-    <!-- {% cycle 'close rows': nil, nil, '</div>' %} -->
-    {% endif %}	
+    	{% endif %}
 {% endfor %}
+</div>
+</div>
 
-<div class="row"> <center>  </center> </div>
-<div class="bigspacer"></div>
-<div class="row"> <center> <div class="title"> Software </div> </center> </div>
-<div class="bigspacer"></div>
+<hr class="featurette-divider">
+
+<!-- <div class="bigspacer"></div>
+<div class="bigspacer"></div> -->
+
+<div class="row featurette">
+<div class="col-md-3"> <div class="title"> Software </div></div>
+<div class="col-md-9">
 {% for project in site.categories.projects %}
-	{% if project.project_type contains "Software" %}
-    <!-- {% cycle 'add rows': '<div class="row">', nil, nil %} -->
-
-		<div class="col-md-6 projectbox">
+    {% if project.project_type contains "Software" %}
+		<div class="col-md-12 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>
@@ -74,12 +85,13 @@ categories:
 			<div class="smallspacer"></div>
 			<div class="bigspacer"></div>
 		</div>
-    <!-- {% cycle 'close rows': nil, nil, '</div>' %} -->
-    	{% endif %}	
+    	{% endif %}
 {% endfor %}
+</div>
+</div>
 
 
-<!-- 
+<!--
 <div class="bigspacer"></div>
 <center>
 <div class="title">
@@ -105,8 +117,7 @@ Biology
 			<div class="bigspacer"></div>
 		</div>
     {% cycle 'close rows': nil, nil, '</div>' %}
-	{% endif %}	
+	{% endif %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div>', '</div>' %}	
+{% cycle 'close rows': nil, '</div>', '</div>' %}
  -->
- 
