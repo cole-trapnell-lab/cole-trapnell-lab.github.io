@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>Comprehensive single cell transcriptional profiling of a multicellular organism by combinatorial indexing</title>
+	<title>Comprehensive single-cell transcriptional profiling of a multicellular organism</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
@@ -68,23 +68,25 @@
 	<div class="col-md-12">
 		<div class="media">
 			
-			<img class="pull-left pad-right media-object" src="/images/papers/cao-combinatorial.png">
+			<img class="pull-left pad-right media-object" src="/images/papers/cao-combinatorial_tsne.png" width=150>
 			
 			<div class="media-body">
 				<div class="title media-heading">
-					Comprehensive single cell transcriptional profiling of a multicellular organism by combinatorial indexing
+					Comprehensive single-cell transcriptional profiling of a multicellular organism
 				</div>
 				<p>
 				<div class="smallhead">
 					Junyue Cao, Jonathan S. Packer, Vijay Ramani, Darren A. Cusanovich, Chau Huynh, Riza Daza, Xiaojie Qiu, Choli Lee, Scott N. Furlan, Frank J. Steemers, Andrew Adey, Robert H. Waterston, Cole Trapnell, Jay Shendure
-					2017.
-                </div>
+					<br>
+
+          </div>
                 <div class="smallhead">
-					bioRxiv preprint 
+					Science
+					(2017)
 				</div>
 			</div>
 		</div>
-	</div>				
+	</div>
 </div>
 
 <div class="bigspacer"></div>
@@ -93,61 +95,62 @@
 	<div class="col-md-3">
 		<div class="bigspacer"></div>
 		<div class="glyphbox note">
-					
+			
 			<div class="smallhead">
 				PDF
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-file-text-o fa-fw"></i>
 				<a class="off" href="/pdfs/papers/cao-combinatorial-indexing.pdf">cao-combinatorial-indexing.pdf</a>
-			</div>		
-			<div class="bigspacer"></div>							
-					
-				
+			</div>
+			<div class="bigspacer"></div>
+			
+			
 			
 			<div class="smallhead">
 				URL
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://biorxiv.org/content/early/2017/02/02/104844">Paper at bioRxiv preprint </a>
-			</div>		
-			<div class="bigspacer"></div>							
-				
+				<a class="off" href="http://http://science.sciencemag.org/content/357/6352/661">Paper at Science</a>
+			</div>
+			<div class="bigspacer"></div>
+			
 			
 			<div class="smallhead">
 				DOI
-			</div>	
+			</div>
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/10.1101/104844">10.1101/104844</a>
-			</div>		
-			<div class="bigspacer"></div>							
-							
+				<a class="off" href="http://dx.doi.org/10.1126/science.aam8940">10.1126/science.aam8940</a>
+			</div>
+			<div class="bigspacer"></div>
+			
 			
 			<div class="smallhead">
 				Share
-			</div>			
+			</div>
 <!-- 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/cao-scrnaseq-combinatorial-indexing/&text=Comprehensive%20single%20cell%20transcriptional%20profiling%20of%20a%20multicellular%20organism%20by%20combinatorial%20indexing" target="_blank">tweet</a>
-									
-			</div>		 -->			
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/cao-scrnaseq-combinatorial-indexing/&text=Comprehensive%20single-cell%20transcriptional%20profiling%20of%20a%20multicellular%20organism" target="_blank">tweet</a>
+				
+			</div>		 -->
 			</div>
 	</div>
-	<div class="col-md-8">	
+	<div class="col-md-8">
 		<div class="post">
 			<h1 id="abstract">Abstract</h1>
 
-<p>Conventional methods for profiling the molecular content of biological samples fail to resolve heterogeneity that is present at the level of single cells. In the past few years, single cell RNA sequencing has emerged as a powerful strategy for overcoming this challenge. However, its adoption has been limited by a paucity of methods that are at once simple to implement and cost effective to scale massively. Here, we describe a combinatorial indexing strategy to profile the transcriptomes of large numbers of single cells or single nuclei without requiring the physical isolation of each cell (Single cell Combinatorial Indexing RNA-seq or sci-RNA-seq). We show that sci-RNA-seq can be used to efficiently profile the transcriptomes of tens-of-thousands of single cells per experiment, and demonstrate that we can stratify cell types from these data. Key advantages of sci-RNA-seq over contemporary alternatives such as droplet-based single cell RNA-seq include sublinear cost scaling, a reliance on widely available reagents and equipment, the ability to concurrently process many samples within a single workflow, compatibility with methanol fixation of cells, cell capture based on DNA content rather than cell size, and the flexibility to profile either cells or nuclei. As a demonstration of sci-RNA-seq, we profile the transcriptomes of 42,035 single cells from C. elegans at the L2 stage, effectively 50-fold “shotgun cellular coverage” of the somatic cell composition of this organism at this stage. We identify 27 distinct cell types, including rare cell types such as the two distal tip cells of the developing gonad, estimate consensus expression profiles and define cell-type specific and selective genes. Given that C. elegans is the only organism with a fully mapped cellular lineage, these data represent a rich resource for future methods aimed at defining cell types and states. They will advance our understanding of developmental biology, and constitute a major leap towards a comprehensive, single-cell molecular atlas of a whole animal.</p>
+<p>To resolve cellular heterogeneity, we developed a combinatorial indexing strategy to profile the transcriptomes of single cells or nuclei, termed sci-RNA-seq (single-cell combinatorial indexing RNA sequencing). We applied sci-RNA-seq to profile nearly 50,000 cells from the nematode Caenorhabditis elegans at the L2 larval stage, which provided &gt;50-fold “shotgun” cellular coverage of its somatic cell composition. From these data, we defined consensus expression profiles for 27 cell types and recovered rare neuronal cell types corresponding to as few as one or two cells in the L2 worm. We integrated these profiles with whole-animal chromatin immunoprecipitation sequencing data to deconvolve the cell type–specific effects of transcription factors. The data generated by sci-RNA-seq constitute a powerful resource for nematode biology and foreshadow similar atlases for other organisms.</p>
 
-		</div>	
-	</div>			
+		</div>
+	</div>
 	<div class="col-md-1"></div>
-</div>	
+</div>
+
 	
 	</div>
 		
