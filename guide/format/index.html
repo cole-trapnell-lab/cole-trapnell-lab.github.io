@@ -117,7 +117,7 @@ github: http://github.com/trvrb/canalization
 
 <p>Each project exists as a separate git repository.  To add a project and have it automatically redeploy when the project’s GitHub repo is updated requires the following two steps:</p>
 
-<h3 id="add-the-project-to-the-jekyll-index">1. Add the project to the Jekyll index</h3>
+<h3 id="1-add-the-project-to-the-jekyll-index">1. Add the project to the Jekyll index</h3>
 
 <p>Open the file <a href="https://github.com/blab/blotter/blob/master/_config.yml"><code>_config.yml</code></a> and append the full repo name to the YAML <code>projects</code> listing.  This should then look like:</p>
 
@@ -130,7 +130,7 @@ github: http://github.com/trvrb/canalization
 
 <p>where <code>owner</code> and <code>project-name</code> is specific to the new project.  Commit this change to the <a href="https://github.com/blab/blotter">blotter</a> GitHub repo.</p>
 
-<h3 id="set-a-webhook-from-github">2. Set a webhook from GitHub</h3>
+<h3 id="2-set-a-webhook-from-github">2. Set a webhook from GitHub</h3>
 
 <p>From the project repo, go to Settings / Service Hooks / WebHook URLs, and add <code>http://blotter-hook.herokuapp.com/</code> to the list.</p>
 
