@@ -1,15 +1,15 @@
 ---
 layout: paper
-title: Chromatin accessibility dynamics of myogenesis at single cell resolution 
+title: Chromatin accessibility dynamics of myogenesis at single cell resolution
 image: /images/papers/cicero.png
 authors: Hannah Pliner, Jonathan Packer, José L. McFaline-Figueroa, Darren A. Cusanovich, Riza Daza, Sanjay Srivatsan, Xiaojie Qiu, Dana Jackson, Anna Minkina, Andrew Adey, Frank J. Steemers, Jay Shendure, Cole Trapnell
 year: 2017
-ref: pliner et al. 2017.
+ref: Pliner et al. 2017.
 journal: "bioRxiv"
 pdf: /pdfs/papers/pliner-cicero.pdf
 doi: 10.1101/155473
 #externurl: "http://biorxiv.org/content/biorxiv/early/2017/06/26/155473.full.pdf"
-projects: Single-cell ATAC-Seq
+projects: Single-cell ATAC-Seq, Gene regulation by noncoding DNA
 ---
 
 # Abstract

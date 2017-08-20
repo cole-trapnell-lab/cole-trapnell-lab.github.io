@@ -5,6 +5,7 @@ image: /images/papers/cacchiarelli-hsmm.png
 authors: Davide Cacchiarelli*, Xiaojie Qiu,  Sanjay Srivatsan, Michael J. Ziller, Eliah Overbey, Jonna Grimsby,  Prapti Pokharel, Ken Livak, Shuqiang Li, Alex Meissner, Tarjei Mikkelsen, John Rinn,  Cole Trapnell*
 ref: Cacciarelli et al. 2017.
 journal: "bioRxiv"
+year: 2017
 pdf: /pdfs/papers/cacchiarelli-hsmm.pdf
 doi: 10.1101/122531
 #externurl: "http://biorxiv.org/content/biorxiv/early/2017/03/30/122531.full.pdf"
