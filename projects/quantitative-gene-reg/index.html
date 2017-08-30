@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>Hannah Pliner</title>
+	<title>Gene regulation by noncoding DNA</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
@@ -48,11 +48,11 @@
 					
 					<a href="/papers/">Papers</a></li>
 					
-					<li>
+					<li class="active">
 					
 					<a href="/projects/">Projects</a></li>	  
 					
-					<li class="active">
+					<li>
 					
 					<a href="/team/">People</a></li>	  	  
 				</ul>
@@ -64,23 +64,22 @@
 		
 	
 
-<div class="bigspacer"></div>
+<div class="spacer"></div>
 
 <div class="row">
 	<div class="col-md-12">
-		<div class="media">
+		<div class="title">
+			<ol class="breadcrumb">
 			
-			<img class="pull-left pad-right media-object" width=120 src="/images/team/hannah-pliner.png">
 			
-			<div class="media-body">
-				<div class="bigtitle media-heading">
-					Hannah Pliner
-				</div>
-				<p>
-				<div class="smallhead">
-					Graduate Student
-				</div>
-			</div>
+				
+				
+				<li><a class="off" href="">Gene regulation by noncoding DNA</a></li>
+			
+			</ol>
+		</div>
+		<div class="head">
+			
 		</div>
 	</div>				
 </div>
@@ -88,51 +87,27 @@
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  			
-			  		
-			
-			
-		
-		<div class="smallhead">
-			GitHub
-		</div>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-github-alt fa-fw"></i>
-			<a class="off" href="https://github.com/hpliner">hpliner</a>
-		</div>		
-		<div class="bigspacer"></div>	
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+    	
+        
+        <div class="spacer"></div>	
+    	
 				
-		
-		<div class="smallhead">
-			Google Scholar
-		</div>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-book fa-fw"></i>
-			<a class="off" href="http://scholar.google.com/citations?user=eBbD0E4AAAAJ">Hannah Pliner</a>
-		</div>		
-		<div class="bigspacer"></div>	
-						   	
-		
-		
-		<div class="smallhead">
-			Email
-		</div>	
-		<div class="pad-left note">
-			<div class="smallspacer"></div>
-			<i class="fa fa-inbox fa-fw"></i>
-			hpliner<span style="display:none">obfuscate</span>@uw.edu
-		</div>		
-		<div class="bigspacer"></div>			
-								
 	</div>
-	<div class="col-md-8">	
+	<div class="col-md-8">			
+		
 		<div class="post">
-			<p>I am a Genome Sciences grad student joint-advised by Cole and <a href="http://www.gs.washington.edu/faculty/shendure.htm">Jay Shendure</a>. I received a B.S. in Biology from Georgetown University. Before starting graduate school, I worked for Dr. <a href="https://www.irp.nia.nih.gov/branches/lng/ndrg.htm">Bryan Traynor</a> in the <a href="http://www.irp.nia.nih.gov/branches/lng/lngindex.htm">Laboratory of Neurogenetics</a> at the NIH where I worked to investigate the genetic etiology of neuromuscular diseases. In the Trapnell Lab, I am investigating chromatin accessibility by analyzing single cell ATAC-seq data.</p>
+			<p><img src="/images/projects/worm-tf-model.png" alt="" /></p>
+
+<h2 id="how-does-each-genes-noncoding-regulatory-dna-determine-its-expression">How does each gene’s noncoding regulatory DNA determine its expression?</h2>
+
+<p>When a cell switches from performing one set of functions to another, either in development or in response to a changing external environment, many thousands of genes are regulated, altering their expression, their chromatin structure, and even how they are packed and positioned within the nucleus. Understanding the genetic and molecular basis of development therefore demands a quantitative description of how each gene is regulated. Sequencing is routinely used to probe various layers of cells’ molecular state, but a quantitative epigenetic model of how chromatin accessibility, transcription factor binding, histone modifications, DNA methylation, and other “inputs” determine a gene’s transcriptional output remains elusive.</p>
+
+<p>We aim to use single-cell genomics experiments to train statistical models that can explain how every gene is regulated in every cell in an entire animal. Our models integrate DNA sequence and epigenetic measurements such as chromatin accessibility to predict a gene’s expression. We’ve recently devised <a href="/papers/pliner-cicero/">techniques</a> that link noncoding regulatory DNA to target genes and describe how their chromatin accessibility drives gene regulation. We were also able to construct an <a href="/papers/cao-scrnaseq-combinatorial-indexing/">organism-scale model</a> that quantifies each of 235 different C. elegans transcription factors’ contribution to establishing the specific expression profile of 27 different cell types. As we develop new or improved single-cell assays based on <a href="/projects/sc-atac">combinatorial cellular indexing</a>, we will expand the scope and power these models and those describing other systems used in the lab.</p>
 
 		</div>
-		
+        
 		
 		
 
@@ -142,9 +117,9 @@
 		<div class="spacer"></div>
 		
 		
-		<p><a href="/papers/qiu-monocle2/" class="off">Reversed graph embedding resolves complex single-cell trajectories</a>
 		
 		
+		<p><a href="/papers/cao-scrnaseq-combinatorial-indexing/" class="off">Comprehensive single-cell transcriptional profiling of a multicellular organism</a>
 		
 		
 		
@@ -154,7 +129,6 @@
 		
 		
 		
-		<p><a href="/papers/qiu-monocle2/" class="off">Reversed graph embedding resolves complex single-cell trajectories</a>
 		
 		
 		
@@ -166,9 +140,6 @@
 		
 		
 		
-		
-		
-		<p><a href="/papers/cusanovich/" class="off">Multiplex single-cell profiling of chromatin accessibility by combinatorial cellular indexing</a>
 		
 		
 		
@@ -222,18 +193,16 @@
 		
 		
 				
-		
-		
-		
-									
-		
+				
 		
 		
 			
-		
+        
+        
 	</div>			
 	<div class="col-md-1"></div>
-</div>	
+</div>
+
 
 	
 	</div>

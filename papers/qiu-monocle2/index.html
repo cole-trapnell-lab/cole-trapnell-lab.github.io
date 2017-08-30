@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8"/>
-	<title>Reversed graph embedding resolves complex single-cell developmental trajectories</title>
+	<title>Reversed graph embedding resolves complex single-cell trajectories</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
     <!-- Customized Bootstrap + Font Awesome + Solarized -->
@@ -68,11 +68,11 @@
 	<div class="col-md-12">
 		<div class="media">
 			
-			<img class="pull-left pad-right media-object" src="/images/papers/monocle2.png" width=150>
+			<img class="pull-left pad-right media-object" src="/images/papers/monocle2.png" style="max-width:150px">
 			
 			<div class="media-body">
 				<div class="title media-heading">
-					Reversed graph embedding resolves complex single-cell developmental trajectories
+					Reversed graph embedding resolves complex single-cell trajectories
 				</div>
 				<p>
 				<div class="smallhead">
@@ -80,8 +80,9 @@
 					<br>
 
           </div>
+					<div class="bigspacer"></div>
                 <div class="smallhead">
-					bioRxiv
+					Nature methods
 					(2017)
 				</div>
 			</div>
@@ -115,7 +116,7 @@
 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				<i class="fa fa-external-link fa-fw"></i>
-				<a class="off" href="http://dx.doi.org/10.1101/110668">10.1101/110668</a>
+				<a class="off" href="http://dx.doi.org/doi:10.1038/nmeth.4402">doi:10.1038/nmeth.4402</a>
 			</div>
 			<div class="bigspacer"></div>
 			
@@ -125,7 +126,7 @@
 			</div>
 <!-- 			<div class="pad-left note">
 				<div class="smallspacer"></div>
-				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/qiu-monocle2/&text=Reversed%20graph%20embedding%20resolves%20complex%20single-cell%20developmental%20trajectories" target="_blank">tweet</a>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://cole-trapnell-lab.github.io/papers/qiu-monocle2/&text=Reversed%20graph%20embedding%20resolves%20complex%20single-cell%20trajectories" target="_blank">tweet</a>
 				
 			</div>		 -->
 			</div>
@@ -134,18 +135,15 @@
 		<div class="post">
 			<h1 id="abstract">Abstract</h1>
 
-<p>Organizing single cells along a developmental trajectory has emerged as a powerful tool for
-understanding how gene regulation governs cell fate decisions. However, learning the structure
-of complex single-cell trajectories with two or more branches remains a challenging
-computational problem. We present Monocle 2, which uses reversed graph embedding to
-reconstruct single-cell trajectories in a fully unsupervised manner. Monocle 2 learns an explicit
-principal graph to describe the data, greatly improving the robustness and accuracy of its
-trajectories compared to other algorithms. Monocle 2 uncovered a new, alternative cell fate in
-what we previously reported to be a linear trajectory for differentiating myoblasts. We also
-reconstruct branched trajectories for two studies of blood development, and show that loss of
-function mutations in key lineage transcription factors diverts cells to alternative branches on the
-a trajectory. Monocle 2 is thus a powerful tool for analyzing cell fate decisions with single-cell
-genomics.</p>
+<p>Single-cell trajectories can unveil how gene regulation governs
+cell fate decisions. However, learning the structure of complex
+trajectories with multiple branches remains a challenging
+computational problem. We present Monocle 2, an algorithm
+that uses reversed graph embedding to describe multiple fate
+decisions in a fully unsupervised manner. We applied Monocle 2
+to two studies of blood development and found that mutations
+in the genes encoding key lineage transcription factors divert
+cells to alternative fates.</p>
 
 		</div>
 	</div>
