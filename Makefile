@@ -13,9 +13,9 @@ push:
 	git push origin master;
 
 build: clean
-	jekyll build 
+	bundle exec jekyll build 
 	cp -R _site/* $(GH_PAGES_DIR)/;
-		
+
 serve: clean
 	jekyll serve --watch
 

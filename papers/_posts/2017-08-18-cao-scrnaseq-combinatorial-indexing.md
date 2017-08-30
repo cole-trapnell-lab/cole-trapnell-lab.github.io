@@ -8,8 +8,8 @@ ref: Cao et al. 2017.
 journal: "Science"
 pdf: /pdfs/papers/cao-combinatorial-indexing.pdf
 doi:  10.1126/science.aam8940
-#externurl: "http://science.sciencemag.org/content/357/6352/661"
-projects: Single-cell RNA-Seq
+externurl: "http://science.sciencemag.org/content/357/6352/661"
+projects: Single-cell RNA-Seq, Gene regulation by noncoding DNA, An RNA atlas of the worm
 ---
 
 # Abstract
