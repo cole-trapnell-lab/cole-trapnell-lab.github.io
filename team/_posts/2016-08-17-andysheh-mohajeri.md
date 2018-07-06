@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Andysheh Mohajeri
-position: Graduate Student
+position: Undergraduate Student
 handle: andysheh
 email: andysheh@uw.edu
 github: andysheh
