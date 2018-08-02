@@ -9,7 +9,7 @@ journal: "Nature"
 pdf: /pdfs/papers/cusanovich_fly_embryogenesis.pdf
 doi: doi:10.1038/nature25981
 #externurl: "https://elifesciences.org/articles/32303"
-projects: Single-cell ATAC-Seq
+projects: Monocle, Single-cell ATAC-Seq
 ---
 
 # Abstract

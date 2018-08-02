@@ -10,7 +10,7 @@ journal: "Nature Methods"
 pdf: /pdfs/papers/qiu-census.pdf
 doi: 10.1038/nmeth.4150
 #externurl: "http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.4150.html"
-projects: Single-cell trajectory analysis
+projects: Monocle, Single-cell trajectory analysis
 ---
 
 # Abstract
