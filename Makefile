@@ -16,7 +16,7 @@ build: clean
 	bundle exec jekyll build 
 	cp -R _site/* $(GH_PAGES_DIR)/;
 
-serve: clean
-	jekyll serve --watch
+serve: 
+	bundle exec jekyll serve --watch
 
 GH_PAGES_DIR = ../compiled_site
