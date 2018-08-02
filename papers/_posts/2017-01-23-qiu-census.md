@@ -2,7 +2,7 @@
 layout: paper
 title: Single-cell mRNA quantification and differential analysis with Census
 #image: /images/papers/qiu-census.png
-image: /images/papers/census-BEAM2.png
+image: /images/papers/qiu-census.png
 authors: Xiaojie Qiu, Andrew Hill,	Jonathan Packer, Dejun Lin,	Yi-An Ma, Cole Trapnell
 year: 2017
 ref: Qiu et al. 2017.

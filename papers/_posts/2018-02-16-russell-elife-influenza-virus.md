@@ -1,7 +1,7 @@
 ---
 layout: paper
 title: Extreme heterogeneity of influenza virus infection in single cells
-#image: /images/papers/monocle2.png
+image: /images/papers/russell-influenza.png
 authors: Alistair B Russell, Cole Trapnell, Jesse D Bloom
 year: 2018
 ref: Russell et al. 2018.

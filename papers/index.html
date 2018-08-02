@@ -5,17 +5,53 @@ categories:
  - papers
 ---
 
+<!-- {% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+    <ul>
+    {% endif %}
+
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+    {% if forloop.last %}
+    </ul>
+    {% else %}
+        {% if this_year != next_year %}
+        </ul>
+        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+        <ul>
+        {% endif %}
+    {% endif %}
+{% endfor %} -->
+
 <div class="bigspacer"></div>	
-{% for paper in site.categories.papers %}
+{% for paper in site.categories.papers  %}
+    {% capture this_year %}{{ paper.date | date: "%Y"  }}{% endcapture %}
+    {% capture next_year %}{{ paper.previous.date | date: "%Y" }}{% endcapture %}
+
     {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-12 paperbox">
+		<div class="col-md-2 paperbox">
+				<div class="media-body">
+				{% if forloop.first %}
+				<div class="head media-heading" id="{{ this_year }}-ref" class="off">{{this_year}}</div>
+				{% else %}
+					{% if this_year != next_year %}
+					<div class="head media-heading" id="{{ next_year }}-ref" class="off">{{next_year}}</div>
+					{% endif %}
+				{% endif %}
+				</div>
+		</div>
+		<div class="col-md-10 paperbox">
 			<div class="media">
   				<a class="pull-right" href="{{ paper.url }}">
     				<img width=100 class="media-object" src="{{ paper.image }}">
   				</a>
  			 	<div class="media-body">
     				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.ref }}</p> <p class="note">{{ paper.journal }}</p>
+    				<p class="note">{{ paper.ref }}</p> <p class="note"><i>{{ paper.journal }}</i></p>
   				</div>
 			</div>
         </div>
