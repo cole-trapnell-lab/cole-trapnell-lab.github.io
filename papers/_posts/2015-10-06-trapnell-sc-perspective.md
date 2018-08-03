@@ -10,6 +10,7 @@ pdf: /pdfs/papers/trapnell-sc-perspective.pdf
 doi: 10.1101/gr.190595.115
 #externurl: "http://genome.cshlp.org/content/25/10/1491.full"
 projects: Single-cell ATAC-Seq, Single-cell RNA-Seq, Single-cell trajectory analysis
+led_by_lab: True
 ---
 
 # Abstract

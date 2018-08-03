@@ -10,6 +10,7 @@ pdf: /pdfs/papers/cacchiarelli-hsmm.pdf
 doi: 10.1101/122531
 #externurl: "http://biorxiv.org/content/biorxiv/early/2017/03/30/122531.full.pdf"
 projects:  Monocle, Single-cell RNA-Seq, Single-cell trajectory analysis, Pluripotency and reprogramming
+led_by_lab: True
 ---
 
 # Abstract

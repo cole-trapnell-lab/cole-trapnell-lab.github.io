@@ -10,6 +10,7 @@ pdf: /pdfs/papers/ajhill_mcfaline-cropseq.pdf
 doi: 10.1038/nmeth.4604
 #externurl: "https://elifesciences.org/articles/32303"
 projects: Single-cell RNA-Seq
+led_by_lab: True
 ---
 
 # Abstract

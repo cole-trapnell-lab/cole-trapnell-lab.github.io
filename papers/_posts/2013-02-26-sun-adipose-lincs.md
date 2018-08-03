@@ -8,6 +8,7 @@ ref: Sun et al. 2014.
 journal: "Proceedings of the National Academy of Sciences 110 (9): 3387-3392."
 pdf: /pdfs/papers/sun-adipose-lincs.pdf
 doi: 10.1073/pnas.1222643110
+led_by_lab: True
 ---
 
 # Abstract

@@ -9,6 +9,7 @@ journal: "Bioinformatics 27 (17): 2325-2329."
 pdf: /pdfs/papers/roberts-RABT.pdf
 doi: 10.1093/bioinformatics/btr355
 projects: Cufflinks
+led_by_lab: True
 ---
 
 # Abstract

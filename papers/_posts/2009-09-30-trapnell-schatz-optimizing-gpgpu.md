@@ -8,6 +8,7 @@ ref: Trapnell & Schatz, 2009.
 journal: "Parallel Computing 35(8): 429-440."
 pdf: /pdfs/papers/trapnell-schatz-optimizing-gpgpu.pdf
 doi: 10.1016/j.parco.2009.05.002
+led_by_lab: True
 ---
 
 # Abstract

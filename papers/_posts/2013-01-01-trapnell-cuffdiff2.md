@@ -9,6 +9,7 @@ journal: "Nature Biotechnology 31: 46-53."
 pdf: /pdfs/papers/trapnell-cuffdiff2.pdf
 doi: 10.1038/nbt.2450
 projects: Cufflinks
+led_by_lab: True
 ---
 
 # Abstract

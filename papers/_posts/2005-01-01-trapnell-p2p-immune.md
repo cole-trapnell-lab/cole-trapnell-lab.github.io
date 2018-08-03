@@ -5,6 +5,7 @@ authors: Cole Trapnell
 year: 2005
 ref: BC Trapnell, Jr., 2005.
 journal: "Proceedings of the 4th International Conference on Artificial Immune Systems"
+led_by_lab: True
 ---
 
 # Abstract

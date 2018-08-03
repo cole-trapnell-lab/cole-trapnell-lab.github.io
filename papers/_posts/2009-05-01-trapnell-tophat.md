@@ -9,6 +9,7 @@ journal: "Bioinformatics 25(9): 1105-1111."
 pdf: /pdfs/papers/trapnell-tophat.pdf
 doi: 10.1093/bioinformatics/btp120
 projects: TopHat
+led_by_lab: True
 ---
 
 # Abstract

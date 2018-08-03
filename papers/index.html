@@ -28,6 +28,17 @@ categories:
 {% endfor %} -->
 
 <div class="bigspacer"></div>	
+<div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-10">
+	<div class="media">
+	</div>
+		<div class="media-body">
+			<h3>Papers in <strong>bold</strong> were led or co-led by members of the Trapnell lab.</h3>
+		</div>
+</div>
+</div>
+<hr class="featurette-divider">
 {% for paper in site.categories.papers  %}
     {% capture this_year %}{{ paper.date | date: "%Y"  }}{% endcapture %}
     {% capture next_year %}{{ paper.previous.date | date: "%Y" }}{% endcapture %}
@@ -50,8 +61,12 @@ categories:
     				<img width=100 class="media-object" src="{{ paper.image }}">
   				</a>
  			 	<div class="media-body">
+					{% if paper.led_by_lab %}  
+					<div class="smallhead media-heading"><strong><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></strong></div>
+					{% else %}
     				<div class="smallhead media-heading"><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></div>
-    				<p class="note">{{ paper.ref }}</p> <p class="note"><i>{{ paper.journal }}</i></p>
+					{% endif %}
+					<p class="note">{{ paper.ref }}</p> <p class="note"><i>{{ paper.journal }}</i></p>
   				</div>
 			</div>
         </div>

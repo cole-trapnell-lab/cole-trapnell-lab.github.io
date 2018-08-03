@@ -10,6 +10,7 @@ pdf: /pdfs/papers/pliner-cicero.pdf
 doi: 10.1016/j.molcel.2018.06.044
 #externurl: "http://biorxiv.org/content/biorxiv/early/2017/06/26/155473.full.pdf"
 projects: Cicero, Monocle, Single-cell ATAC-Seq, Gene regulation by noncoding DNA
+led_by_lab: True
 ---
 
 # Abstract
