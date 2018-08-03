@@ -5,7 +5,7 @@ image: /images/papers/aviran-shape-seq-pnas.png
 authors: Sharon Aviran, Cole Trapnell, Julius B. Lucks, Stefanie A. Mortimer, Shujun Luo, Gary P. Schroth, Jennifer A. Doudna, Adam P. Arkin, Lior Pachter.
 year: 2011
 ref: Aviran et al. 2011.
-journal: "Proceedings of the National Academy of Sciences 108 (27): 11069-11074."
+journal: "Proceedings of the National Academy of Sciences"
 pdf: /pdfs/papers/aviran-shape-seq-pnas.pdf
 doi: 10.1073/pnas.1106541108
 ---

@@ -5,7 +5,7 @@ image: /images/papers/trapnell-tuxedo-protocol.png
 authors: Cole Trapnell,	Adam Roberts, Loyal Goff, Geo Pertea, Daehwan Kim, David R. Kelley, Harold Pimentel, Steven L. Salzberg, John L. Rinn, Lior Pachter.
 year: 2012
 ref: Trapnell et al. 2012.
-journal: "Nature Protocols 7: 562–578."
+journal: "Nature Protocol"
 pdf: /pdfs/papers/trapnell-tuxedo-protocol.pdf
 doi: 10.1086/342350
 projects: Cufflinks, TopHat

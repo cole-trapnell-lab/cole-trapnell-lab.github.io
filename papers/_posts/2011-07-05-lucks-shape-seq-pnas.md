@@ -5,7 +5,7 @@ image: /images/papers/lucks-shape-seq-pnas.png
 authors: Julius B. Lucks, Stefanie A. Mortimer, Cole Trapnell, Shujun Luo, Sharon Aviran, Gary P. Schroth, Lior Pachter, Jennifer A. Doudna, Adam P. Arkin.
 year: 2011
 ref: Lucks et al. 2011.
-journal: "Proceedings of the National Academy of Sciences 108 (27): 11063-11068."
+journal: "Proceedings of the National Academy of Sciences"
 pdf: /pdfs/papers/lucks-shape-seq-pnas.pdf
 doi: 10.1073/pnas.1106501108
 ---

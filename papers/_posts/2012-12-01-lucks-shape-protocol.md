@@ -4,7 +4,7 @@ title: "SHAPE–Seq: High‐Throughput RNA Structure Analysis"
 authors: Stefanie A. Mortimer, Cole Trapnell, Sharon Aviran, Lior Pachter, Julius B. Lucks.
 year: 2012
 ref: Mortimer et al. 2012.
-journal: "Current Protocols in Chemical Biology 275-297."
+journal: "Current Protocols in Chemical Biology"
 doi: 10.1002/9780470559277.ch120019
 ---
 

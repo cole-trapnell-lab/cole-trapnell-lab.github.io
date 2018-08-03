@@ -5,7 +5,7 @@ image: /images/papers/cabili-lincRNA-catalog.png
 authors: Moran N. Cabili, Cole Trapnell, Loyal Goff, Magdalena Koziol, Barbara Tazon-Vega, Aviv Regev, John L. Rinn.
 year: 2011
 ref: Cabili et al. 2011.
-journal: "Genes & Development 25:1915-1927."
+journal: "Genes & Development"
 pdf: /pdfs/papers/cabili-lincRNA-catalog.pdf
 doi: 10.1101/gad.17446611
 ---

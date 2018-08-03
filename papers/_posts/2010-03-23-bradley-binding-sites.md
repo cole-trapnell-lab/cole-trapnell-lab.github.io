@@ -5,7 +5,7 @@ image: /images/papers/bradley-binding-sites.png
 authors: Robert K. Bradley, Xiao-Yong Li, Cole Trapnell, Stuart Davidson, Lior Pachter, Hou Cheng Chu, Leath A. Tonkin, Mark D. Biggin, Michael B. Eisen.
 year: 2010
 ref: Bradley et al. 2010.
-journal: "PLoS Biology 8(3): e1000343."
+journal: "PLoS Biology"
 pdf: /pdfs/papers/bradley-binding-sites.pdf
 doi: 10.1371/journal.pbio.1000343
 ---

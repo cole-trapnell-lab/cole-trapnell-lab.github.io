@@ -5,7 +5,7 @@ image: /images/papers/hacisuleyman-linc-firre.png
 authors: Ezgi Hacisuleyman, Loyal A. Goff, Cole Trapnell, Adam Williams, Jorge Henao-Mejia, Lei Sun, Patrick McClanahan, David G. Hendrickson, Martin Sauvageau, David R. Kelley, Michael Morse, Jesse Engreitz, Eric S. Lander, Mitch Guttman, Harvey F. Lodish, Richard Flavell, Arjun Raj, John L. Rinn.
 year: 2014
 ref: Hacisuleyman, Goff et al. 2014.
-journal: "Nature Structural & Molecular Biology 21: 198–206."
+journal: "Nature Structural & Molecular Biology"
 pdf: /pdfs/papers/hacisuleyman-linc-firre.pdf
 doi: 10.1038/nsmb.2764
 ---

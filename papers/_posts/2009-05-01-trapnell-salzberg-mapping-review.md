@@ -5,7 +5,7 @@ image: /images/papers/trapnell-salzberg-mapping-review.png
 authors: Cole Trapnell, Steven L. Salzberg.
 year: 2009
 ref: Trapnell & Salzberg 2009.
-journal: "Nature Biotechnology 27(5): 455-457."
+journal: "Nature Biotechnology"
 pdf: /pdfs/papers/trapnell-salzberg-mapping-review.pdf
 doi: 10.1038/nbt0509-455
 led_by_lab: True

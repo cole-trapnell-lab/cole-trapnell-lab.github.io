@@ -5,7 +5,7 @@ image: /images/papers/langmead-bowtie.png
 authors: Ben Langmead, Cole Trapnell, Mihai Pop, Steven L. Salzberg.
 year: 2009
 ref: Langmead et al. 2009.
-journal: "Genome Biology 10:R25."
+journal: "Genome Biology"
 pdf: /pdfs/papers/langmead-bowtie.pdf
 doi: 10.1086/342350
 ---

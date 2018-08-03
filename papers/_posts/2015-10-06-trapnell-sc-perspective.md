@@ -5,7 +5,7 @@ image: /images/papers/trapnell-sc-perspective.png
 authors: Cole Trapnell
 year: 2015
 ref: Trapnell. 2015.
-journal: "Genome Research 25: 1491-1498"
+journal: "Genome Research"
 pdf: /pdfs/papers/trapnell-sc-perspective.pdf
 doi: 10.1101/gr.190595.115
 #externurl: "http://genome.cshlp.org/content/25/10/1491.full"

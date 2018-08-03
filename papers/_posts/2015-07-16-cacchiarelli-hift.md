@@ -5,7 +5,7 @@ image: /images/papers/cacchiarelli-hift.png
 authors: Davide Cacchiarelli*, Cole Trapnell*, Michael J. Ziller*, Magali Soumillon, Marcella Cesana, Rahul Karnik, Julie Donaghey, Zachary D. Smith, Sutheera Ratanasirintrawoot, Xiaolan Zhang, Shannan J. Ho Sui, Zhaoting Wu, Veronika Akopian, Casey A. Gifford, John Doench, John L. Rinn, George Q. Daley, Alexander Meissner, Eric S. Lander, Tarjei S. Mikkelsen
 year: 2015
 ref: Cacciarelli, Trapnell, & Ziller et al. 2015.
-journal: "Cell 162:2 412–424"
+journal: "Cell"
 pdf: /pdfs/papers/cacchiarelli-hift.pdf
 doi: 10.1016/j.cell.2015.06.016
 #externurl: "www.cell.com/cell/abstract/S0092-8674(15)00700-X"

@@ -5,7 +5,7 @@ image: /images/papers/cusanovich-science.png
 authors: Darren A. Cusanovich, Riza Daza, Andrew Adey, Hannah Pliner, Lena Christiansen, Kevin L. Gunderson, Frank J. Steemers, Cole Trapnell, Jay Shendure
 year: 2015
 ref: Cusanovich et al. 2015.
-journal: "Science 348:6237 910-914"
+journal: "Science"
 pdf: /pdfs/papers/cusanovich-sc-atac.pdf
 doi: 10.1126/science.aab1601
 #externurl: "sciencemag.org/content/early/2015/05/06/science.aab1601.full"

@@ -5,7 +5,7 @@ image: /images/papers/gifford-ziller-esc-epigenetics.png
 authors: Casey A. Gifford, Michael J. Ziller, Hongcang Gu, Cole Trapnell, Julie Donaghey, Alexander Tsankov, Alex K. Shalek, David R. Kelley, Alexander A. Shishkin, Robbyn Issner, Xiaolan Zhang, Michael Coyne, Jennifer L. Fostel, Laurie Holmes, Jim Meldrim, Mitchell Guttman, Charles Epstein, Hongkun Park, Oliver Kohlbacher, John Rinn, Andreas Gnirke, Eric S. Lander, Bradley E. Bernstein, Alexander Meissner.
 year: 2013
 ref: Gifford, Ziller et al. 2013.
-journal: "Cell 153 (5) 325-334."
+journal: "Cell"
 pdf: /pdfs/papers/gifford-ziller-esc-epigenetics.pdf
 doi: 10.1016/j.cell.2013.04.037
 projects: Pluripotency and reprogramming

@@ -5,7 +5,7 @@ image: /images/papers/mercer-capture-seq.png
 authors: Tim R. Mercer, Daniel J. Gerhardt, Marcel E. Dinger, Joanna Crawford, Cole Trapnell, Jeffrey A. Jeddeloh, John S. Mattick, John L Rinn.
 year: 2012
 ref: Mercer et al. 2012.
-journal: "Nature Biotechnology 30: 99-104."
+journal: "Nature Biotechnology"
 pdf: /pdfs/papers/mercer-capture-seq.pdf
 doi: 10.1038/nbt.2024
 ---

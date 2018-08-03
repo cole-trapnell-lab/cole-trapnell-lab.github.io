@@ -5,7 +5,7 @@ image: /images/papers/garber-rna-seq-review.png
 authors: Manuel Garber, Manfred G. Grabherr, Mitchell Guttman, Cole Trapnell.
 year: 2011
 ref: Garber et al. 2011.
-journal: "Nature Methods 8 (6): 469-477."
+journal: "Nature Methods"
 pdf: /pdfs/papers/garber-rna-seq-review.pdf
 doi: 10.1038/nmeth.1613
 led_by_lab: True

@@ -5,7 +5,7 @@ image: /images/papers/trapnell-cuffdiff2.png
 authors: Cole Trapnell, David G. Hendrickson, Martin Sauvageau, Loyal Goff, John L. Rinn, Lior Pachter.
 year: 2013
 ref: Trapnell, Hendrickson et al. 2013.
-journal: "Nature Biotechnology 31: 46-53."
+journal: "Nature Biotechnology"
 pdf: /pdfs/papers/trapnell-cuffdiff2.pdf
 doi: 10.1038/nbt.2450
 projects: Cufflinks

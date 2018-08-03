@@ -5,7 +5,7 @@ image: /images/papers/suzuki-pmt.png
 authors: Takuji Suzuki, Paritha Arumugam, Takuro Sakagami, Nico Lachmann, Claudia Chalk, Anthony Sallese, Shuichi Abe, Cole Trapnell, Brenna Carey, Thomas Moritz, Punam Malik, Carolyn Lutzko, Robert E. Wood, Bruce C. Trapnell
 year: 2014
 ref: Suzuki et al. 2014.
-journal: "Nature 514: 450-453."
+journal: "Nature"
 pdf: /pdfs/papers/suzuki-pmt.pdf
 doi: doi:10.1038/nature13807
 projects: Plasticity in macrophages

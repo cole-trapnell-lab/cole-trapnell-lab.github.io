@@ -5,7 +5,7 @@ image: /images/papers/sun-adipose-lincs.png
 authors: Lei Sun, Loyal A. Goff, Cole Trapnell, Ryan Alexander, Kinyui Alice Lo, Ezgi Hacisuleyman, Martin Sauvageau, Barbara Tazon-Vega, David R. Kelley, David G. Hendrickson, Bingbing Yuan, Manolis Kellis, Harvey F. Lodish, John L. Rinn.
 year: 2002
 ref: Sun et al. 2014.
-journal: "Proceedings of the National Academy of Sciences 110 (9): 3387-3392."
+journal: "Proceedings of the National Academy of Sciences"
 pdf: /pdfs/papers/sun-adipose-lincs.pdf
 doi: 10.1073/pnas.1222643110
 led_by_lab: True

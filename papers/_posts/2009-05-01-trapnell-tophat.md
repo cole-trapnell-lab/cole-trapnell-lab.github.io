@@ -5,7 +5,7 @@ image: /images/papers/trapnell-tophat.png
 authors: Cole Trapnell, Lior Pachter, Steven L. Salzberg.
 year: 2009
 ref: Trapnell et al. 2009.
-journal: "Bioinformatics 25(9): 1105-1111."
+journal: "Bioinformatics"
 pdf: /pdfs/papers/trapnell-tophat.pdf
 doi: 10.1093/bioinformatics/btp120
 projects: TopHat

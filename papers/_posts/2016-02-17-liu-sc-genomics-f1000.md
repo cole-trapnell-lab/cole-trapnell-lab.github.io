@@ -4,8 +4,8 @@ title: Single-cell transcriptome sequencing recent advances and remaining challe
 image: /images/papers/liu-review.png
 authors: Serena Liu, Cole Trapnell
 year: 2016
-ref: Liu. 2016.
-journal: "F1000Res v.5"
+ref: Liu and Trapnell 2016.
+journal: "F1000 Research"
 pdf: /pdfs/papers/liu_single-cell-genomics.pdf
 doi: 10.12688/f1000research.7223.1
 #externurl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758375/"
