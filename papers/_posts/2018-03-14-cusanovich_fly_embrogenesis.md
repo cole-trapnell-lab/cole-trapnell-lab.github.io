@@ -2,9 +2,9 @@
 layout: paper
 title: The cis-regulatory dynamics of embryonic development at single-cell resolution
 image: /images/papers/cusanovich_fly_embryogenesis.png
-authors: Darren A. Cusanovich*, James P. Reddington*, David A. Garfield*, Riza M. Daza, Delasa Aghamirzaie, Raquel Marco-Ferreres, Hannah A. Pliner, Lena Christiansen, Xiaojie Qiu, Frank J. Steemers, Cole Trapnell, Jay Shendure** & Eileen E. M. Furlong**
+authors: Darren A. Cusanovich*, James P. Reddington*, David A. Garfield*, Riza M. Daza, Delasa Aghamirzaie, Raquel Marco-Ferreres, Hannah A. Pliner, Lena Christiansen, Xiaojie Qiu, Frank J. Steemers, Cole Trapnell, Jay Shendure**, Eileen E. M. Furlong**
 year: 2018
-ref: cusanovich et al. 2018.
+ref: Cusanovich et al. 2018.
 journal: "Nature"
 pdf: /pdfs/papers/cusanovich_fly_embryogenesis.pdf
 doi: doi:10.1038/nature25981

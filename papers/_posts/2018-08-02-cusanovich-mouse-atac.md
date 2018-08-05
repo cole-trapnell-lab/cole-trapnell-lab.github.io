@@ -4,7 +4,7 @@ title: A single-cell atlas of in vivo mammalian chromatin accessibility
 image: /images/papers/cusanovich-mouse-atac.png
 authors: Darren A. Cusanovich*, Andrew J. Hill*, Delasa Aghamirzaie, Riza M. Daza, Hannah A. Pliner, Joel B. Berletch, Galina N. Filippova, Xingfan Huang, Lena Christiansen, William S. DeWitt, Choli Lee, Samuel G. Regalado, David F. Read, Frank J. Steemers, Christine M. Disteche, Cole Trapnell**, Jay Shendure**
 year: 2018
-ref: cusanovich et al. 2018.
+ref: Cusanovich et al. 2018.
 journal: "Cell"
 pdf: /pdfs/papers/cusanovich-mouse-atac.pdf
 doi: doi:10.1016/j.cell.2018.06.052
