@@ -41,7 +41,7 @@ categories:
 <hr class="featurette-divider">
 {% for paper in site.categories.papers  %}
     {% capture this_year %}{{ paper.date | date: "%Y"  }}{% endcapture %}
-    {% capture next_year %}{{ paper.previous.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ paper.next.date | date: "%Y" }}{% endcapture %}
 
     {% cycle 'add rows': '<div class="row">', nil, nil %}
 		<div class="col-md-2 paperbox">
@@ -50,7 +50,7 @@ categories:
 				<div class="head media-heading" id="{{ this_year }}-ref" class="off">{{this_year}}</div>
 				{% else %}
 					{% if this_year != next_year %}
-					<div class="head media-heading" id="{{ next_year }}-ref" class="off">{{next_year}}</div>
+					<div class="head media-heading" id="{{ next_year }}-ref" class="off">{{this_year}}</div>
 					{% endif %}
 				{% endif %}
 				</div>

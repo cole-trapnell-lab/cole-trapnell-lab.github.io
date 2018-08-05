@@ -4,7 +4,7 @@ title: On the design of CRISPR-based single-cell molecular screens
 image: /images/papers/crop-seq.png
 authors: Andrew J Hill*, José L McFaline-Figueroa*, Lea M Starita, Molly J Gasperini, Kenneth A Matreyek, Jonathan Packer, Dana Jackson, Jay Shendure**, Cole Trapnell**
 year: 2018
-ref: hill et al. 2018.
+ref: Hill et al. 2018.
 journal: "Nature Methods"
 pdf: /pdfs/papers/ajhill_mcfaline-cropseq.pdf
 doi: 10.1038/nmeth.4604
