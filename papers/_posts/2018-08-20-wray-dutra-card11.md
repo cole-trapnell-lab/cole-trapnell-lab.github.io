@@ -2,8 +2,7 @@
 layout: paper
 title: Activated CARD11 accelerates germinal center kinetics, promoting mTORC1 and terminal differentiation
 image: /images/papers/wray-dutra-card11.png
-authors: Michelle N. Wray‑Dutra, Raghav Chawla, Kerri R. Thomas, Brenda J. Seymour, Tanvi Arkatkar, Karen M. Sommer, Socheath Khim,
-Cole Trapnell, Richard G. James, and David J. Rawlings
+authors: Michelle N. Wray‑Dutra, Raghav Chawla, Kerri R. Thomas, Brenda J. Seymour, Tanvi Arkatkar, Karen M. Sommer, Socheath Khim, Cole Trapnell, Richard G. James, David J. Rawlings
 year: 2018
 ref: Wray-Dutra et al. 2018.
 journal: "Journal of Experimental Medicine"
