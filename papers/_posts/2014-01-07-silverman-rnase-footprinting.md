@@ -5,7 +5,7 @@ image: /images/papers/silverman-rnase-footprinting.png
 authors: Ian M. Silverman, Fan Li, Anissa Alexander, Loyal Goff, Cole Trapnell, John L. Rinn, Brian D. Gregory.
 year: 2014
 ref: Silverman et al. 2014.
-journal: "Genome Biology 15:R3"
+journal: "Genome Biology"
 pdf: /pdfs/papers/silverman-rnase-footprinting.pdf
 doi: 10.1186/gb-2014-15-1-r3
 ---
