@@ -1,6 +1,6 @@
 ---
 layout: paper
-title: Single-Cell Multi-omics An Engine for New Quantitative Models of Gene Regulation
+title: Single-Cell Multi-omics&#58; An Engine for New Quantitative Models of Gene Regulation
 image: /images/papers/packer-sc-omics.png
 authors: Jonathan Packer, Cole Trapnell
 year: 2018
