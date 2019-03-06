@@ -20,4 +20,20 @@ categories:
         </div>	  
     {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
 {% endfor %}
+<h1>Alumni</h1>
+{% for member in site.categories.alumni reversed %}
+    {% cycle 'add rows': '<div class="row">', nil, nil %}
+		<div class="col-md-4 memberbox">
+			<div class="media">
+  				<a class="pull-left" href="{{ member.url }}">
+    				<img width=170 class="media-object" src="{{ member.image }}">
+  				</a>
+ 			 	<div class="media-body">
+    				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+    				<p class="note">{{ member.position }}</p>
+  				</div>
+			</div>
+        </div>	  
+    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+{% endfor %}
 {% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
