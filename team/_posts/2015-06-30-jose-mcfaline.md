@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Jose McFaline
+title: José McFaline
 position: Postdoctoral Fellow
 handle: joselmc
 email: joselmc@uw.edu
