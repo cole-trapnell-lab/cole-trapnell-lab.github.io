@@ -6,7 +6,7 @@ categories:
 ---
 <div class="bigspacer"></div>	
 {% for member in site.categories.team reversed %}
-    {% cycle 'add rows': '<div class="row">' nil nil %}
+    {% cycle 'add rows': '<div class="row">', "", "" %}
 		<div class="col-md-4 memberbox">
 			<div class="media">
   				<a class="pull-left" href="{{ member.url }}">
@@ -18,11 +18,18 @@ categories:
   				</div>
 			</div>
         </div>	  
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+    {% cycle 'close rows': "", "", '</div><div class="bigspacer"></div>' %}
 {% endfor %}
+
+<div class="bigspacer"></div>
+<div class="bigspacer"></div>
+
+<div class="row"></div>
+
 <h1>Alumni</h1>
+
 {% for member in site.categories.alumni reversed %}
-    {% cycle 'add rows': '<div class="row">', nil, nil %}
+    {% cycle 'add rows': '<div class="row">', "", "" %}
 		<div class="col-md-4 memberbox">
 			<div class="media">
   				<a class="pull-left" href="{{ member.url }}">
@@ -34,6 +41,5 @@ categories:
   				</div>
 			</div>
         </div>	  
-    {% cycle 'close rows': nil, nil, '</div><div class="bigspacer"></div>' %}
+    {% cycle 'close rows': "", "", '</div><div class="bigspacer"></div>' %}
 {% endfor %}
-{% cycle 'close rows': nil, '</div><div class="bigspacer"></div>', '</div><div class="bigspacer"></div>' %}
