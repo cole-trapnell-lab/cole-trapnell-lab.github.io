@@ -6,7 +6,7 @@ handle: ame18
 email: ame18@uw.edu
 #github: lsaund11
 #scholar: Cp6vXY8AAAAJ&hl
-image: /images/team/andrea-ellis.JPG
+image: /images/team/andrea-ellis.jpeg
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 

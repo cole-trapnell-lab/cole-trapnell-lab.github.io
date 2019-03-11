@@ -6,7 +6,7 @@ handle: andysheh
 email: andysheh@uw.edu
 github: andysheh
 #scholar: Cp6vXY8AAAAJ&hl
-image: /images/team/andysheh-mohajeri.JPG
+image: /images/team/andysheh-mohajeri.jpeg
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 
