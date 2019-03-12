@@ -4,6 +4,7 @@ title: Lauren Saunders
 position: Graduate Student
 handle: lsaund11
 email: lsaund11@uw.edu
+twitter: lsaund11
 github: lsaund11
 scholar: Cp6vXY8AAAAJ&hl
 image: /images/team/lauren-saunders.jpeg
