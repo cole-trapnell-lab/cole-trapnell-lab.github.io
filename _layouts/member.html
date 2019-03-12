@@ -28,7 +28,18 @@ layout: default
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  			
+	<div class="col-md-3">  	
+		{% if member.current %}		
+		<div class="smallhead">
+			Current Position
+		</div>	
+		<div class="pad-left note">
+			<div class="smallspacer"></div>
+			<i class="fa fa-file-text-o fa-fw"></i>			
+			<a class="off" href="{{ member.current_link }}">{{ member.current | split: '/' | last }}</a>
+		</div>		
+		<div class="bigspacer"></div>	
+		{% endif %}		
 		{% if member.cv %}		
 		<div class="smallhead">
 			CV
