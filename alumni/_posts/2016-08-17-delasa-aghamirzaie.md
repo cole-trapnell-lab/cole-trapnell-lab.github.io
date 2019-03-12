@@ -2,7 +2,7 @@
 layout: member
 title: Delasa Aghamirzaie
 position: Former Postdoctoral Fellow
-# current: 
+current: Senior bioinformatics scientist at Illumina AI labs
 # current_link:
 # handle: delasa
 email: delasa@uw.edu
