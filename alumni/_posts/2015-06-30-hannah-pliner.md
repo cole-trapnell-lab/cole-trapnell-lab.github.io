@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Hannah Pliner
-position: Graduate Student
+position: Former Graduate Student
 current: Lead Data Scientist for Single Cell Genomics, Brotman Baty Institute
 current_link: https://brotmanbaty.org/
 twitter: hpliner

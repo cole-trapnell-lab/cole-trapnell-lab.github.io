@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Delasa Aghamirzaie
-position: Postdoctoral Fellow
+position: Former Postdoctoral Fellow
 # current: 
 # current_link:
 # handle: delasa

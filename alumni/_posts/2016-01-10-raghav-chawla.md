@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Raghav Chawla
-position: Postdoctoral Fellow
+position: Former Postdoctoral Fellow
 current: Physician Scientist at the University Children’s Hospital Basel, Switzerland
 current_link: https://www.ukbb.ch/en/personal/personen/Chawla-Raghav.php
 handle: rchawla
