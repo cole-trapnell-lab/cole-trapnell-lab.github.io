@@ -4,6 +4,7 @@ title: Jonathan Packer
 position: Graduate Student
 handle: jspacker
 email:  jspacker@uw.edu
+twitter: jspacker
 github:  jspacker
 image: /images/team/jonathan-packer.png
 ---
