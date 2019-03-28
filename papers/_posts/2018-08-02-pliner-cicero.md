@@ -2,7 +2,7 @@
 layout: paper
 title: Cicero predicts cis-regulatory DNA interactions from single-cell chromatin accessibility data
 image: /images/papers/cicero.png
-authors: Hannah Pliner*, Jonathan Packer*, José L. McFaline-Figueroa, Darren A. Cusanovich, Riza Daza, Delasa Aghamirzaie, Sanjay Srivatsan, Xiaojie Qiu, Dana Jackson, Anna Minkina, Andrew Adey, Frank J. Steemers, Jay Shendure**, Cole Trapnell**
+authors: Hannah Pliner*, Jonathan Packer, José L. McFaline-Figueroa, Darren A. Cusanovich, Riza Daza, Delasa Aghamirzaie, Sanjay Srivatsan, Xiaojie Qiu, Dana Jackson, Anna Minkina, Andrew Adey, Frank J. Steemers, Jay Shendure**, Cole Trapnell**
 year: 2018
 ref: Pliner et al. 2018.
 journal: "Molecular Cell"
