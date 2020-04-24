@@ -2,7 +2,7 @@
 layout: paper
 title: A Peninsular Structure Coordinates Asynchronous Differentiation with Morphogenesis to Generate Pancreatic Islets
 image: /images/papers/sharon-chawla-pancreas.png
-authors: Nadav Sharon*, Raghav Chawla*, Jonas Mueller, Jordan Vanderhooft, Luke James Whitehorn, Benjamin Rosenthal, Mads Gurtler, Ralph R. Estanboulieh, Dmitry Shvartsman, David K. Gifford, Cole Trapnell** and Doug Melton**
+authors: Nadav Sharon*, Raghav Chawla*, Jonas Mueller, Jordan Vanderhooft, Luke James Whitehorn, Benjamin Rosenthal, Mads Gurtler, Ralph R. Estanboulieh, Dmitry Shvartsman, David K. Gifford, Cole Trapnell**, Doug Melton**
 ref: Sharon, Chawla et al. 2019.
 journal: "Cell"
 year: 2019

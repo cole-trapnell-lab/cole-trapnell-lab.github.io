@@ -2,7 +2,7 @@
 layout: paper
 title: The single-cell transcriptional landscape of mammalian organogenesis
 image: /images/papers/cao_spielmann_muscle.png
-authors: Junyue Cao*, Malte Spielmann*, Xiaojie Qiu, Xingfan Huang, Daniel M. Ibrahim, Andrew J. Hill1, Fan Zhang, Stefan Mundlos, Lena Christiansen, Frank J. Steemers, Cole Trapnell**, and Jay Shendure**
+authors: Junyue Cao*, Malte Spielmann*, Xiaojie Qiu, Xingfan Huang, Daniel M. Ibrahim, Andrew J. Hill1, Fan Zhang, Stefan Mundlos, Lena Christiansen, Frank J. Steemers, Cole Trapnell**, Jay Shendure**
 ref: Cao, Spielmann et al. 2019.
 journal: "Nature"
 year: 2019

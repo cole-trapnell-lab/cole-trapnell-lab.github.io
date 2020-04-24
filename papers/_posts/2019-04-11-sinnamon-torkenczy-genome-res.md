@@ -2,7 +2,7 @@
 layout: paper
 title: The accessible chromatin landscape of the murine hippocampus at single-cell resolution
 image: /images/papers/sinnamon_GR.png
-authors: John R. Sinnamon*, Kristof A. Torkenczy*, Michael W. Linhoff, Sarah A. Vitak, Ryan M. Mulqueen, Hannah A. Pliner, Cole Trapnell, Frank J. Steemers, Gail Mandel and Andrew C. Adey
+authors: John R. Sinnamon*, Kristof A. Torkenczy*, Michael W. Linhoff, Sarah A. Vitak, Ryan M. Mulqueen, Hannah A. Pliner, Cole Trapnell, Frank J. Steemers, Gail Mandel, Andrew C. Adey
 ref: Sinnamon, Torkenczy et al. 2019.
 journal: "Genome Research"
 year: 2019

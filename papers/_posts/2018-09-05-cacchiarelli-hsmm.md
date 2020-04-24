@@ -2,7 +2,7 @@
 layout: paper
 title: Aligning Single-Cell Developmental and Reprogramming Trajectories Identifies Molecular Determinants of Myogenic Reprogramming Outcome
 image: /images/papers/cacchiarelli-hsmm.png
-authors: Davide Cacchiarelli*, Xiaojie Qiu,  Sanjay Srivatsan, Michael J. Ziller, Eliah Overbey, Jonna Grimsby,  Prapti Pokharel, Ken Livak, Shuqiang Li, Alex Meissner, Tarjei Mikkelsen, John Rinn,  Cole Trapnell*
+authors: Davide Cacchiarelli*, Xiaojie Qiu,  Sanjay Srivatsan, Michael J. Ziller, Eliah Overbey, Jonna Grimsby,  Prapti Pokharel, Ken Livak, Shuqiang Li, Alex Meissner, Tarjei Mikkelsen, John Rinn, Cole Trapnell*
 ref: Cacciarelli et al. 2018.
 journal: "Cell Systems"
 year: 2018

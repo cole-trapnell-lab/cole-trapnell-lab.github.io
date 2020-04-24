@@ -2,7 +2,7 @@
 layout: paper
 title: Reversed graph embedding resolves complex single-cell trajectories 
 image: /images/papers/monocle2.png
-authors: Xiaojie Qiu, Qi Mao, Ying Tang, Li Wang,	Raghav Chawla, Hannah Pliner, Cole Trapnell
+authors: Xiaojie Qiu, Qi Mao, Ying Tang, Li Wang, Raghav Chawla, Hannah Pliner, Cole Trapnell
 year: 2017
 ref: Qiu et al. 2017.
 journal: "Nature methods"

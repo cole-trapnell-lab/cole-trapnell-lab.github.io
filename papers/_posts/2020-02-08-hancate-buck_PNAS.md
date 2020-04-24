@@ -2,7 +2,7 @@
 layout: paper
 title: Connect-seq to superimpose molecular on anatomical neural circuit maps
 image: /images/papers/Hanchate_Buck_pnas.jpg
-authors: Naresh K. Hanchate*, Eun Jeong Lee*, Andria Ellis, Kunio Kondoha, Donghui Kuanga, Ryan Basomc, Cole Trapnell, and Linda B. Buck
+authors: Naresh K. Hanchate*, Eun Jeong Lee*, Andria Ellis, Kunio Kondoha, Donghui Kuanga, Ryan Basomc, Cole Trapnell, Linda B. Buck
 ref: Hanchate, Lee et al. 2020.
 journal: "PNAS"
 year: 2020

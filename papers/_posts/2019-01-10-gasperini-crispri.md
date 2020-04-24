@@ -2,7 +2,7 @@
 layout: paper
 title: A Genome-wide Framework for Mapping Gene Regulation via Cellular Genetic Screens
 image: /images/papers/gasperini_crispri_cell.png
-authors: Molly Gasperini, Andrew J. Hill, José L. McFaline-Figueroa, Beth Martin, Seungsoo Kim, Melissa D. Zhang, Dana Jackson, Anh Leith, Jacob Schreiber, William S. Noble, Cole Trapnell, Nadav Ahituv, and Jay Shendure
+authors: Molly Gasperini, Andrew J. Hill, José L. McFaline-Figueroa, Beth Martin, Seungsoo Kim, Melissa D. Zhang, Dana Jackson, Anh Leith, Jacob Schreiber, William S. Noble, Cole Trapnell, Nadav Ahituv, Jay Shendure
 ref: Gasperini et al. 2019.
 journal: "Cell"
 year: 2019

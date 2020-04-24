@@ -112,12 +112,20 @@ layout: default
 		<div class="post">
 			{{ content }}
 		</div>
-		
-		{% assign lastname = member.title | split: ' ' | last %}
+
+		{% assign lastname = member.title | split: ' ' | last | remove: "*" | downcase %}
+		{% assign firstinit = member.title | split: ' ' | first | slice: 0 | downcase%}
+		{% assign memcode = firstinit | append: lastname %}
 		{% for paper in site.categories.papers %}
-		{% if paper.authors contains lastname %}
-		{% assign papersq = true %}
+		{% assign authors = paper.authors | split: ", " %}
+			{% for author in authors %}
+			{% assign authorinit = author | split: " " | first | slice: 0 | downcase %}
+			{% assign authorlst = author | split: " " | last | remove: "*" | downcase %}
+			{% assign authcode = authorinit | append: authorlst %}
+			{% if authcode == memcode %}
+			{% assign papersq = true %}
 		{% endif %}
+		{% endfor %}
 		{% endfor %}
 
 		{% if papersq == true %}
@@ -125,11 +133,17 @@ layout: default
 		<div class="head">Papers</div>
 		<div class="spacer"></div>
 		{% for paper in site.categories.papers %}
-		{% if paper.authors contains lastname %}
-		<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+		{% assign authors = paper.authors | split: ", " %}
+			{% for author in authors%}
+			{% assign authorinit = author | split: " " | first | slice: 0 | downcase %}
+			{% assign authorlst = author | split: " " | last | remove: "*" | remove: "." | downcase %}
+			{% assign authcode = authorinit | append: authorlst %}
+			{% if authcode == memcode %}
+			<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
 		{% endif %}
 		{% endfor %}
-		{% endif %}		
+		{% endfor %}
+		{% endif %}
 		
 		{% for project in site.projects %}
 			{% for contributor in project.contributors %}

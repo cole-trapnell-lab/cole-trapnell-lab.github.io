@@ -2,7 +2,7 @@
 layout: paper
 title: Dynamics of gene expression in single root cells of Arabidopsis thaliana
 image: /images/papers/jean-baptiste-biorxiv.png
-authors: Ken Jean-Baptiste, José L. McFaline-Figueroa, Cristina M. Alexandre, Michael W. Dorrity, Lauren M. Saunders, Kerry L. Bubb, Cole Trapnell, Stanley Fields, Christine Queitsch*, and Josh T. Cuperus*
+authors: Ken Jean-Baptiste, José L. McFaline-Figueroa, Cristina M. Alexandre, Michael W. Dorrity, Lauren M. Saunders, Kerry L. Bubb, Cole Trapnell, Stanley Fields, Christine Queitsch*, Josh T. Cuperus*
 ref: Jean-Baptiste et al. 2019
 journal: "The Plant Cell"
 year: 2019
