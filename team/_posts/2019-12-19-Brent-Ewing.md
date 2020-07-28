@@ -8,4 +8,5 @@ email: bge@uw.edu
 #twitter: 
 #scholar: 
 image: /images/team/brent-ewing.jpg
+alumni: false
 ---

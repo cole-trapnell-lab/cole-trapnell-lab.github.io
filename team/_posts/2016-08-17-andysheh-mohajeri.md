@@ -1,12 +1,13 @@
 ---
 layout: member
 title: Andysheh Mohajeri
-position: Undergraduate Student
+position: Undergraduate Intern
 handle: andysheh
 email: andysheh@uw.edu
 github: andysheh
 #scholar: Cp6vXY8AAAAJ&hl
 image: /images/team/andysheh-mohajeri.jpeg
+alumni: true
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 

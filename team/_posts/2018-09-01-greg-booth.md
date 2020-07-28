@@ -7,6 +7,7 @@ email: gtb7@uw.edu
 github: gregtbooth
 #scholar: Cp6vXY8AAAAJ&hl
 image: /images/team/greg-booth.jpg
+alumni: false
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 

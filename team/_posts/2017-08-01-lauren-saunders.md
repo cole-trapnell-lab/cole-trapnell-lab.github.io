@@ -8,6 +8,7 @@ twitter: lsaund11
 #github: lsaund11
 scholar: Cp6vXY8AAAAJ&hl
 image: /images/team/lauren-saunders.jpeg
+alumni: false
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 

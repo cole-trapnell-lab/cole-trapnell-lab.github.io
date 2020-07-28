@@ -8,7 +8,8 @@ email: elizab9@uw.edu
 twitter: eliza_barkan
 scholar: 0X85FdcAAAAJ&hl
 image: /images/team/eliza-barkan.jpg
-#cv: /pdfs/team/jose-mcfaline-cv.pdf
+alumni: false
+#cv: 
 ---
 
 I am a Molecular and Cellular Biology graduate student in the Trapnell Lab. I am interested in developing computational and experimental methods to understand gene regulation and expression in organismal development and disease.

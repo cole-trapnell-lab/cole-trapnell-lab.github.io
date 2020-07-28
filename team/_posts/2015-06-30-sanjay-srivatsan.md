@@ -10,6 +10,7 @@ scholar: 3CxgshwAAAAJ
 pubmed: pubmed/?term=Sanjay+Srivatsan+%5Bau%5D
 image: /images/team/sanjay-srivatsan.jpg
 cv: /pdfs/team/sanjay-srivatsan-cv.pdf
+alumni: false
 ---
 I’m an MD/PhD student at the [University of Washington](http://www.mstp.washington.edu/). My research interests are in chromatin dynamics during cell fate maintenance, differentiation and dedifferentiation.  As a dual degree candidate, I am also looking to advance methods in personalized medicine through statistical and computational learning. 
 

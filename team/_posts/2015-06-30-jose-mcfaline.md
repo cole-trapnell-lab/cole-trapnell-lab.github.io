@@ -7,6 +7,7 @@ email: joselmc@uw.edu
 scholar: IZEfmAcAAAAJ
 pubmed: sites/myncbi/1fa0znNNa--ki/bibliograpahy/48352677/public/?sort=date&direction=ascending
 image: /images/team/jose-mcfaline.png
+alumni: false
 
 ---
 

@@ -9,6 +9,7 @@ twitter: coletrapnell
 scholar: XtXFCp8AAAAJ
 image: /images/team/cole-trapnell.png
 cv: /pdfs/team/cole-trapnell-cv.pdf
+alumni: false
 ---
 
 I'm an Assistant Professor in the Department of [Genome Sciences](http://www.gs.washington.edu/) at the University of Washington.  I study cell differentiation, reprogramming and cell-cell communication. I also develop technologies to help identify genes that regulate these processes.  

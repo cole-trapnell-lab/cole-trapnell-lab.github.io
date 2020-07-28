@@ -7,6 +7,7 @@ email: ame18@uw.edu
 #github: lsaund11
 #scholar: Cp6vXY8AAAAJ&hl
 image: /images/team/andria-ellis.jpeg
+alumni: false
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 
