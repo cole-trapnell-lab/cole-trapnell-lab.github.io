@@ -13,3 +13,5 @@ gem 'jekyll-press'
 # octokit
 gem 'octokit'
 gem 'netrc'
+
+gem "webrick", "~> 1.7"
