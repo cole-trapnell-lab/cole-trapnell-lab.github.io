@@ -8,6 +8,7 @@ ref: Langmead et al. 2009.
 journal: "Genome Biology"
 pdf: /pdfs/papers/langmead-bowtie.pdf
 doi: 10.1086/342350
+categories: papers
 ---
 
 # Abstract

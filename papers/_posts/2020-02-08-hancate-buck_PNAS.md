@@ -10,6 +10,7 @@ pdf: /pdfs/papers/hanchate_PNAS_2020+SI.pdf
 doi: 10.1073/pnas.1912176117
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

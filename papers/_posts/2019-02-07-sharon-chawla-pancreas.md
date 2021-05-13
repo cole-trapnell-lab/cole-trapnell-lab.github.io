@@ -10,6 +10,7 @@ pdf: /pdfs/papers/sharon-chawla-pancreas-2019.pdf
 doi: 10.1016/j.cell.2018.12.003
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

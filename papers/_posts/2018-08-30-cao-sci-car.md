@@ -11,6 +11,7 @@ doi: doi:10.1126/science.aau0730
 #externurl: "https://www.cell.com/cell/fulltext/S0092-8674(18)30855-9"
 projects: Single-cell RNA-Seq, Single-cell ATAC-Seq, Gene regulation by noncoding DNA
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

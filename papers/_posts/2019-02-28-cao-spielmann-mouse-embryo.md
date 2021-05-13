@@ -10,6 +10,7 @@ pdf: /pdfs/papers/cao-spielmann-mouse-emb.pdf
 doi: 10.1038/s41586-019-0969-x
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

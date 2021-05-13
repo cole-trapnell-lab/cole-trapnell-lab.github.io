@@ -11,6 +11,7 @@ doi: 10.12688/f1000research.7223.1
 #externurl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758375/"
 projects: Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

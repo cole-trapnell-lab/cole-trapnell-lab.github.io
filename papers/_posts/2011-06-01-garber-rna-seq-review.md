@@ -9,6 +9,7 @@ journal: "Nature Methods"
 pdf: /pdfs/papers/garber-rna-seq-review.pdf
 doi: 10.1038/nmeth.1613
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

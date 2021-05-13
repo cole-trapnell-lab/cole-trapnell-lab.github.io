@@ -9,6 +9,7 @@ journal: "Cell"
 pdf: /pdfs/papers/gifford-ziller-esc-epigenetics.pdf
 doi: 10.1016/j.cell.2013.04.037
 projects: Pluripotency and reprogramming
+categories: papers
 ---
 
 # Abstract

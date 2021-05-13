@@ -10,6 +10,7 @@ pdf: /pdfs/papers/roberts-RABT.pdf
 doi: 10.1093/bioinformatics/btr355
 projects: Cufflinks
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

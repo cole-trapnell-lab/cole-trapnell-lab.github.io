@@ -8,6 +8,7 @@ ref: Hacisuleyman, Goff et al. 2014.
 journal: "Nature Structural & Molecular Biology"
 pdf: /pdfs/papers/hacisuleyman-linc-firre.pdf
 doi: 10.1038/nsmb.2764
+categories: papers
 ---
 
 # Abstract

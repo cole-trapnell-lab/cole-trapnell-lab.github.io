@@ -10,6 +10,7 @@ pdf: /pdfs/papers/russell-elife-influenza-virus.pdf
 doi: 10.7554/eLife.32303
 #externurl: "https://elifesciences.org/articles/32303"
 projects: Single-cell RNA-Seq
+categories: papers
 ---
 
 # Abstract

@@ -9,6 +9,7 @@ journal: "Nature"
 pdf: /pdfs/papers/suzuki-pmt.pdf
 doi: doi:10.1038/nature13807
 projects: Plasticity in macrophages
+categories: papers
 ---
 
 # Abstract

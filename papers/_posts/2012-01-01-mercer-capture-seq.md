@@ -8,6 +8,7 @@ ref: Mercer et al. 2012.
 journal: "Nature Biotechnology"
 pdf: /pdfs/papers/mercer-capture-seq.pdf
 doi: 10.1038/nbt.2024
+categories: papers
 ---
 
 # Abstract

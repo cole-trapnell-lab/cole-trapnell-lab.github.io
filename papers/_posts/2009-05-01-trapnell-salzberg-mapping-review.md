@@ -9,6 +9,7 @@ journal: "Nature Biotechnology"
 pdf: /pdfs/papers/trapnell-salzberg-mapping-review.pdf
 doi: 10.1038/nbt0509-455
 led_by_lab: True
+categories: papers
 ---
 
 Mapping the vast quantities of short sequence fragments produced by next-generation sequencing platforms is a challenge. What programs are available and how do they work?

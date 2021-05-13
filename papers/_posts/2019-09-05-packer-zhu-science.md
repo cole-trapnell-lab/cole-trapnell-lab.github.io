@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Packer_Zhu_science_2019.pdf
 doi: 10.1126/science.aax1971
 projects:
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

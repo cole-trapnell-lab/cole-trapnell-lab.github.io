@@ -6,6 +6,7 @@ year: 2012
 ref: Mortimer et al. 2012.
 journal: "Current Protocols in Chemical Biology"
 doi: 10.1002/9780470559277.ch120019
+categories: papers
 ---
 
 # Abstract

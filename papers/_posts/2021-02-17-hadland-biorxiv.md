@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Hadland_etal_biorxiv_2021.pdf
 doi: 10.1101/2021.01.25.427999
 projects:  Single cell RNA-seq
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

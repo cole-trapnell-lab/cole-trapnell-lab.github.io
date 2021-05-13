@@ -10,6 +10,7 @@ pdf: /pdfs/papers/jean-baptiste_plant_cell_2019.pdf
 doi: 10.1105/tpc.18.00785
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

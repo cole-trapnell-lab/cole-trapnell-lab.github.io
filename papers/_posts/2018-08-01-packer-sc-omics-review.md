@@ -11,6 +11,7 @@ doi: 10.1016/j.tig.2018.06.001
 #externurl: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4758375/"
 projects: Single-cell RNA-Seq, Single-cell ATAC-seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

@@ -10,6 +10,7 @@ pdf: /pdfs/papers/trapnell-tophat.pdf
 doi: 10.1093/bioinformatics/btp120
 projects: TopHat
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

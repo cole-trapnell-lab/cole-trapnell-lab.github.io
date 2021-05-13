@@ -10,6 +10,7 @@ pdf: /pdfs/papers/pliner_garnet_NM_2019.pdf
 doi: 10.1038/s41592-019-0535-3
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

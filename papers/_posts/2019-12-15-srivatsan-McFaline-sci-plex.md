@@ -10,6 +10,7 @@ pdf: /pdfs/papers/srivatsan_mcfaline_ramani_sci-plex_Science_2019.pdf
 doi: 10.1126/science.aax6234
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

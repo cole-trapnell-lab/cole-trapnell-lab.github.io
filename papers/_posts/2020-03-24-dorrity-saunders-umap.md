@@ -10,6 +10,7 @@ pdf: /pdfs/papers/dorrity_saunders_yeast_umap.pdf
 doi: 10.1038/s41467-020-15351-4
 projects:
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

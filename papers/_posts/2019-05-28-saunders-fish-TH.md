@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Saunders_elife_2019.pdf
 doi: 10.7554/eLife.45181
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

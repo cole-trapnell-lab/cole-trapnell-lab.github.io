@@ -8,6 +8,7 @@ ref: Cabili et al. 2011.
 journal: "Genes & Development"
 pdf: /pdfs/papers/cabili-lincRNA-catalog.pdf
 doi: 10.1101/gad.17446611
+categories: papers
 ---
 
 # Abstract

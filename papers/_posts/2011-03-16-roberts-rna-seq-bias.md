@@ -9,6 +9,7 @@ journal: "Genome Biology"
 pdf: /pdfs/papers/roberts-rna-seq-bias.pdf
 doi: 10.1186/gb-2011-12-3-r22
 projects: Cufflinks
+categories: papers
 ---
 
 # Abstract

@@ -10,6 +10,7 @@ pdf: /pdfs/papers/mcfaline_emt_natgen.pdf
 doi: 10.1038/s41588-019-0489-5
 projects:
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

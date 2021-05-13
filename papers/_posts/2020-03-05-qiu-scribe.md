@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Qiu_etal_Scribe_CellSys_2020.pdf
 doi: 10.1016/j.cels.2020.02.003
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Domcke_Hill_Daza_fetal-ATAC_Science_2020.pdf
 doi: 10.1126/science.aba7612
 projects:  Single Cell ATAC-seq
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

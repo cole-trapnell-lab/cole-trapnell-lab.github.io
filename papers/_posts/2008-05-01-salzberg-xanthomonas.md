@@ -8,6 +8,7 @@ ref: Salzberg et al. 2008.
 journal: "BMC genomics"
 pdf: /pdfs/papers/salzberg-xanthomonas.pdf
 doi: 10.1186/1471-2164-9-204
+categories: papers
 ---
 
 # Abstract

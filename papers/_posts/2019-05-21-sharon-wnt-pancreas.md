@@ -10,6 +10,7 @@ pdf: /pdfs/papers/sharon_cell-rep_2019.pdf
 doi: 10.1016/j.celrep.2019.04.083
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

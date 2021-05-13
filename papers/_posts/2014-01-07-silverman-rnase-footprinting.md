@@ -8,6 +8,7 @@ ref: Silverman et al. 2014.
 journal: "Genome Biology"
 pdf: /pdfs/papers/silverman-rnase-footprinting.pdf
 doi: 10.1186/gb-2014-15-1-r3
+categories: papers
 ---
 
 # Abstract

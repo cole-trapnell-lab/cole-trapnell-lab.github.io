@@ -9,6 +9,7 @@ journal: "Parallel Computing"
 pdf: /pdfs/papers/trapnell-schatz-optimizing-gpgpu.pdf
 doi: 10.1016/j.parco.2009.05.002
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

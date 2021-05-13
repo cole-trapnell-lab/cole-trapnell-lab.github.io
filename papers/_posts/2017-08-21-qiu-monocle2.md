@@ -11,6 +11,7 @@ doi: doi:10.1038/nmeth.4402
 #externurl: "http://biorxiv.org/content/biorxiv/early/2017/02/21/110668.full.pdf"
 projects: Monocle, Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

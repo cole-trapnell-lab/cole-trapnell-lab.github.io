@@ -10,6 +10,7 @@ pdf: /pdfs/papers/cusanovich-sc-atac.pdf
 doi: 10.1126/science.aab1601
 #externurl: "sciencemag.org/content/early/2015/05/06/science.aab1601.full"
 projects: Single-cell ATAC-Seq
+categories: papers
 ---
 
 # Abstract

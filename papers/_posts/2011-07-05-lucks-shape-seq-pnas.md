@@ -8,6 +8,7 @@ ref: Lucks et al. 2011.
 journal: "Proceedings of the National Academy of Sciences"
 pdf: /pdfs/papers/lucks-shape-seq-pnas.pdf
 doi: 10.1073/pnas.1106501108
+categories: papers
 ---
 
 # Abstract

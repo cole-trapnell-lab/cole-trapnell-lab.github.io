@@ -8,6 +8,7 @@ ref: Bradley et al. 2010.
 journal: "PLoS Biology"
 pdf: /pdfs/papers/bradley-binding-sites.pdf
 doi: 10.1371/journal.pbio.1000343
+categories: papers
 ---
 
 # Abstract

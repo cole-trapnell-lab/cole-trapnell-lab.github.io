@@ -11,6 +11,7 @@ doi: 10.1016/j.cell.2015.06.016
 #externurl: "www.cell.com/cell/abstract/S0092-8674(15)00700-X"
 projects: Pluripotency and reprogramming
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

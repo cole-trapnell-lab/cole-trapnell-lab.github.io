@@ -10,6 +10,7 @@ pdf: /pdfs/papers/Cao_fetal-rna_Science_2020.pdf
 doi: 10.1126/science.aba7721
 projects:  Single Cell RNA-seq
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

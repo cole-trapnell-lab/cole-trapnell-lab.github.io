@@ -10,6 +10,7 @@ pdf: /pdfs/papers/gasperini-crispri.pdf
 doi: 10.1016/j.cell.2018.11.029
 projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract

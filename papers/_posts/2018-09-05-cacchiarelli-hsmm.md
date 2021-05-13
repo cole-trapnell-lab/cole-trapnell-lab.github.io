@@ -11,6 +11,7 @@ doi: 10.1016/j.cels.2018.07.006
 #preprint: "http://biorxiv.org/content/biorxiv/early/2017/03/30/122531.full.pdf"
 projects:  Monocle, Single-cell RNA-Seq, Single-cell trajectory analysis, Pluripotency and reprogramming
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

@@ -8,6 +8,7 @@ ref: Aviran et al. 2011.
 journal: "Proceedings of the National Academy of Sciences"
 pdf: /pdfs/papers/aviran-shape-seq-pnas.pdf
 doi: 10.1073/pnas.1106541108
+categories: papers
 ---
 
 # Abstract

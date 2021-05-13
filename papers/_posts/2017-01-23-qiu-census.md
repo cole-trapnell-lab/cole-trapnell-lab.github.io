@@ -12,6 +12,7 @@ doi: 10.1038/nmeth.4150
 #externurl: "http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.4150.html"
 projects: Monocle, Single-cell RNA-Seq, Single-cell trajectory analysis
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

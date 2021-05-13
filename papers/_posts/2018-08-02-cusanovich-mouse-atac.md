@@ -11,6 +11,7 @@ doi: doi:10.1016/j.cell.2018.06.052
 #externurl: "https://www.cell.com/cell/fulltext/S0092-8674(18)30855-9"
 projects: Cicero, Monocle, An atlas of gene regulation in the mouse, Single-cell ATAC-Seq, Gene regulation by noncoding DNA
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

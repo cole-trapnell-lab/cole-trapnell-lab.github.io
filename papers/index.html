@@ -1,8 +1,6 @@
 ---
 layout: default
 title: trapnell lab / papers
-categories: 
- - papers
 ---
 
 <!-- {% for post in site.posts  %}
@@ -39,19 +37,17 @@ categories:
 </div>
 </div>
 <hr class="featurette-divider">
-{% for paper in site.categories.papers  %}
-    {% capture this_year %}{{ paper.date | date: "%Y"  }}{% endcapture %}
-    {% capture next_year %}{{ paper.next.date | date: "%Y" }}{% endcapture %}
 
+{% for paper in site.categories["papers"]  %}
+	{% assign last_paper_year = this_paper_year %}
+	{% capture this_paper_year %}{{ paper.date | date: '%Y'  }}{% endcapture %}
+    {% capture next_paper_year %}{{ site.categories["papers"][forloop.index].date | date: '%Y' }}{% endcapture %}
+	
     {% cycle 'add rows': '<div class="row">', nil, nil %}
 		<div class="col-md-2 paperbox">
 				<div class="media-body">
-				{% if forloop.first %}
-				<div class="head media-heading" id="{{ this_year }}-ref" class="off">{{this_year}}</div>
-				{% else %}
-					{% if this_year != next_year %}
-					<div class="head media-heading" id="{{ next_year }}-ref" class="off">{{this_year}}</div>
-					{% endif %}
+				{% if forloop.first or this_paper_year != last_paper_year %}
+					<div class="head media-heading" id="{{ this_year }}-ref">{{this_paper_year}}</div>
 				{% endif %}
 				</div>
 		</div>

@@ -10,6 +10,7 @@ pdf: /pdfs/papers/trapnell-cufflinks.pdf
 doi: 10.1038/nbt.1621
 projects: Cufflinks
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

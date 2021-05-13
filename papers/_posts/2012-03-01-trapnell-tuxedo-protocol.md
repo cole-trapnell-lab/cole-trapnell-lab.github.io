@@ -10,6 +10,7 @@ pdf: /pdfs/papers/trapnell-tuxedo-protocol.pdf
 doi: 10.1086/342350
 projects: Cufflinks, TopHat
 led_by_lab: True
+categories: papers
 ---
 
 # Abstract

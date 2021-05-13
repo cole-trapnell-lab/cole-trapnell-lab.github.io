@@ -11,6 +11,7 @@ doi: 10.1084/jem.20180230
 #externurl: "http://biorxiv.org/content/biorxiv/early/2017/06/26/155473.full.pdf"
 projects: Single-cell RNA-seq
 led_by_lab: False
+categories: papers
 ---
 
 # Abstract
