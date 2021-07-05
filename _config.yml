@@ -42,3 +42,5 @@ exclude:
   - "*.nex"
   - "Gemfile"
   - "Gemfile.lock"
+  
+exclude: [vendor]
