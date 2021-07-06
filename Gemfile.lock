@@ -49,7 +49,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
-    json (2.2.0)
+    json (2.5.1)
     kramdown (1.17.0)
     less (2.6.0)
       commonjs (~> 0.2.7)
