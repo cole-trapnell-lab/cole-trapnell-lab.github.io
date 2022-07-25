@@ -1,8 +1,23 @@
-_site
-.DS_Store
-*.sublime-project
-*.sublime-workspace
 codekit-config.json
 node_modules
 _asset_bundler_cache
 Gemfile.lock
+
+# Environment files
+environment*
+
+# Compiled site
+_site/
+
+# Projects
+projects/
+!projects/index.html
+
+# Jekyll build process
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+
+# Other files
+.DS_Store
+.tweet-cache

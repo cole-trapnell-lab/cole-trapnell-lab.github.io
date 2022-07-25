@@ -1,23 +1,19 @@
+name: Trapnell Lab Research
+description: Science updates on gene regulation, development, and single cell genomics from the Trapnell Lab at the University of Washington
+url:  http://cole-trapnell-lab.github.io
+
 markdown: kramdown
-#pygments: true
-highlighter: pygments
 permalink: /:categories/:title/
+future: true
+sass:
+  sass_dir: css
 
-redcarpet: 
-  extensions:
-   - tables
-   - no_intra_emphasis
-   - autolink
-   - superscript
-   - strikethrough
+#plugins: ['jekyll-twitter-plugin']
 
-url:
-  http://cole-trapnell-lab.github.io
-  #http://localhost
 analytics: 'UA-58618307-1'
 
-pagination: true
-paginate: 5
+#pagination: true
+#paginate: 5
 
 exclude:
   - "*.branches"

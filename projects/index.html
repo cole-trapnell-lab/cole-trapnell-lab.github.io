@@ -22,11 +22,11 @@ categories:
 
 <hr>
 <div class="row featurette">
-<div class="col-md-3"> <div class="title"> Biology </div></div>
-<div class="col-md-9">
+<div class="col-lg-3"> <div class="title"> Biology </div></div>
+<div class="col-lg-9">
 {% for project in site.categories.projects %}
     {% if project.project_type contains "Biology" %}
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>
@@ -52,11 +52,11 @@ categories:
 <div class="bigspacer"></div> -->
 
 <div class="row featurette">
-<div class="col-md-3"> <div class="title"> Technology </div></div>
-<div class="col-md-9">
+<div class="col-lg-3"> <div class="title"> Technology </div></div>
+<div class="col-lg-9">
 {% for project in site.categories.projects %}
     {% if project.project_type contains "Technology" %}
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>
@@ -82,11 +82,11 @@ categories:
 <div class="bigspacer"></div> -->
 
 <div class="row featurette">
-<div class="col-md-3"> <div class="title"> Software </div></div>
-<div class="col-md-9">
+<div class="col-lg-3"> <div class="title"> Software </div></div>
+<div class="col-lg-9">
 {% for project in site.categories.projects %}
     {% if project.project_type contains "Software" %}
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>
@@ -117,7 +117,7 @@ Biology
 {% for project in site.categories.projects %}
 	{% if project.category contains "Biology" %}
     {% cycle 'add rows': '<div class="row">', nil, nil %}
-		<div class="col-md-6 projectbox">
+		<div class="col-lg-6 projectbox">
 		  	<a class="pull-right" href="{{ paper.url }}">
     			<img width=100 class="media-object" src="{{ project.image }}">
   			</a>

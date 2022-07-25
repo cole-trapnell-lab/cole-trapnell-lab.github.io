@@ -18,7 +18,7 @@ module Jekyll
 		
 			# url = Liquid::Template.parse(@markup).render context
 			# if url =~ /^\//
-			# 	url = "http://cole-trapnell-lab.github.io" + url
+			# 	url = "https://cole-trapnell-lab.github.io/" + url
 			# end
 			# json_object = JSON.parse(open("http://urls.api.twitter.com/1/urls/count.json?url=#{url}").read)
 			# count = json_object["count"]
@@ -27,7 +27,7 @@ module Jekyll
 			# html = ""
 			# if count > 0
 			# 	html += "<span class=\"smallnote\">"
-			# 	html += "<i class=\"fa fa-angle-left\"></i> "
+			# 	html += "<i class=\"fa fa-retweet\"></i> "
 			# 	html += "<a class=\"off\" href=\"http://topsy.com/trackback?url=#{topsy_url}\">"
 			# 	html += "#{count}"
 			# 	html += "</a>"
