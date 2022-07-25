@@ -23,44 +23,48 @@
 		ga('send', 'pageview');
 
 	</script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
 			
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
 				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">Trapnell Lab</a>
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					Trapnell lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">Papers</a>
+						</li>
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/projects/">Projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">Team</a></li>
+					</ul>
 				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li>
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li class="active">
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/team/">People</a></li>	  	  
-				</ul>
 			</div>
-		</nav>	
+		</nav>
 	</div>
 	
-	<div class="container">	
+	<div class="container mt-4">	
 		
 	<div class="container" style="max-width: 950px">
 
@@ -79,11 +83,11 @@
 
 <hr>
 <div class="row featurette">
-<div class="col-md-3"> <div class="title"> Biology </div></div>
-<div class="col-md-9">
+<div class="col-lg-3"> <div class="title"> Biology </div></div>
+<div class="col-lg-9">
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/mouse-atlas.png">
   			</a>
@@ -102,7 +106,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/worm-drawing.png">
   			</a>
@@ -121,7 +125,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/gene-reg.png">
   			</a>
@@ -140,7 +144,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/papers/suzuki-pmt.png">
   			</a>
@@ -159,7 +163,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/papers/gifford-ziller-esc-epigenetics.png">
   			</a>
@@ -191,8 +195,8 @@
 <div class="bigspacer"></div> -->
 
 <div class="row featurette">
-<div class="col-md-3"> <div class="title"> Technology </div></div>
-<div class="col-md-9">
+<div class="col-lg-3"> <div class="title"> Technology </div></div>
+<div class="col-lg-9">
 
     
 
@@ -201,7 +205,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/t-SNE-small.png">
   			</a>
@@ -221,7 +225,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/papers/trapnell-cacchiarelli-monocle.png">
   			</a>
@@ -241,7 +245,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/papers/cusanovich-science.png">
   			</a>
@@ -275,13 +279,13 @@
 <div class="bigspacer"></div> -->
 
 <div class="row featurette">
-<div class="col-md-3"> <div class="title"> Software </div></div>
-<div class="col-md-9">
+<div class="col-lg-3"> <div class="title"> Software </div></div>
+<div class="col-lg-9">
 
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/cicero-logo.jpg">
   			</a>
@@ -312,7 +316,7 @@
     
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/monocle-logo.png">
   			</a>
@@ -329,7 +333,7 @@
     	
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/cufflinks-logo.png">
   			</a>
@@ -346,7 +350,7 @@
     	
 
     
-		<div class="col-md-12 projectbox">
+		<div class="col-lg-12 projectbox">
 		  	<a class="pull-right" href="">
     			<img width=100 class="media-object" src="/images/projects/tophat-logo.png">
   			</a>

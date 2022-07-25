@@ -23,51 +23,55 @@
 		ga('send', 'pageview');
 
 	</script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
 			
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
 				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">Trapnell Lab</a>
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					Trapnell lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">Papers</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/projects/">Projects</a></li>
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/team/">Team</a></li>
+					</ul>
 				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li>
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li class="active">
-					
-					<a href="/team/">People</a></li>	  	  
-				</ul>
 			</div>
-		</nav>	
+		</nav>
 	</div>
 	
-	<div class="container">	
+	<div class="container mt-4">	
 		
 	
 
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-lg-12">
 		<div class="media">
 			
 			<img class="pull-left pad-right media-object" width=120 src="/images/team/andria-ellis.jpeg">
@@ -88,7 +92,7 @@
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">  	
+	<div class="col-lg-3">  	
 				
 			  		
 			
@@ -108,7 +112,7 @@
 		<div class="bigspacer"></div>			
 								
 	</div>
-	<div class="col-md-8">	
+	<div class="col-lg-8">	
 		<div class="post">
 			<p>I’m a Genome Sciences graduate student in the Trapnell lab. I received a B.S. in Biomedical Engineering from Boston University. While in Boston, I worked for over two years in the Bradham Lab, studying the skeletal development of sea urchins. I spent a summer on a Bioinformatics REU, working more computationally in the lab, developing an image analysis program that could track cells during development.
 As a Genome Sciences student, I want to continue to grow both computationally and experimentally. I am interested in gene regulation during differentiation and development, and in new technologies to uncover networks of gene regulation.</p>
@@ -3312,7 +3316,7 @@ As a Genome Sciences student, I want to continue to grow both computationally an
 			
 		
 	</div>			
-	<div class="col-md-1"></div>
+	<div class="col-lg-1"></div>
 </div>	
 
 	

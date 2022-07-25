@@ -23,51 +23,55 @@
 		ga('send', 'pageview');
 
 	</script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
 			
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
 				
-				<div class="navbar-header">
-					<object class="pull-left logo" data="/images/logo.svg" type="image/svg+xml"></object>
-					<a class="navbar-brand" href="/">Trapnell Lab</a>
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					Trapnell lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">Papers</a>
+						</li>
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/projects/">Projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">Team</a></li>
+					</ul>
 				</div>
-				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li>
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li class="active">
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/team/">People</a></li>	  	  
-				</ul>
 			</div>
-		</nav>	
+		</nav>
 	</div>
 	
-	<div class="container">	
+	<div class="container mt-4">	
 		
 	
 
 <div class="spacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-lg-12">
 		<div class="title">
 			<ol class="breadcrumb">
 			
@@ -87,7 +91,7 @@
 <div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-lg-3">
 		<div class="bigspacer"></div>
     	
 		<div class="smallhead">
@@ -113,7 +117,7 @@
         
 				
 	</div>
-	<div class="col-md-8">			
+	<div class="col-lg-8">			
 		
 		<div class="post">
 			<p>Monocle is a toolkit for analyzing single-cell gene expression experiments. It was designed for RNA-Seq, but can also work with single cell qPCR. It performs differential expression analysis, and can find genes that differ between cell types or between cell states. When used to study an ongoing biological process such as cell differentiation, Monocle learns that process and places cells in order according to their progress through it. Monocle finds genes that are dynamically regulated during that process.</p>
@@ -278,7 +282,7 @@
         
         
 	</div>			
-	<div class="col-md-1"></div>
+	<div class="col-lg-1"></div>
 </div>
 
 

@@ -23,44 +23,51 @@
 		ga('send', 'pageview');
 
 	</script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
 			
 </head>
 
 <body>
 	
 	<div id="header">
-		<nav class="navbar navbar-default navbar-static-top" role="navigation">	 
-			<div class="container">	
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
 				
-				<ul class="nav navbar-nav navbar-right">
-                    <!-- 
-                    <li>
-                    
-                    <a href="/blog/">blog</a>
-                    </li> -->
-					
-					<li>
-					
-					<a href="/papers/">Papers</a></li>
-					
-					<li>
-					
-					<a href="/projects/">Projects</a></li>	  
-					
-					<li>
-					
-					<a href="/team/">People</a></li>	  	  
-				</ul>
+				<a class="navbar-brand" href="/">
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/papers/">Papers</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/projects/">Projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">Team</a></li>
+					</ul>
+				</div>
 			</div>
-		</nav>	
+		</nav>
 	</div>
 	
-	<div class="container">	
+	<div class="container mt-4">	
 		
 	<div class="bigspacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-lg-12">
 		<object class="pull-left biglogo" data="/images/logo.svg" type="image/svg+xml"></object>
 		<div class="bigtitle logobox" style="display:table-cell; vertical-align:middle">
 		Trapnell Lab
@@ -71,7 +78,7 @@
 <div class="hugespacer"></div>
 
 <div class="row">
-	<div class="col-md-12">
+	<div class="col-lg-12">
 		<div class="smallhead">
 			The Trapnell Lab at the University of Washington's <a class="off" href="http://www.gs.washington.edu/">Department of Genome Sciences</a> studies cell differentiation, reprogramming, and other transitions between stable or metastable cellular states. We also study the role of cell-cell communication in governing these processes.  We aim to identify genes that control cellular transitions, primarily using single-cell genomics.    
 		</div>
@@ -80,25 +87,16 @@
 
 <div class="hugespacer"></div>
 
-<div class="row">
-    <!-- <div class="col-md-4">
-        <div class="head">
-            <a class="off" href="/blog/">Recent posts</a>
-        </div>
-        <div class="bigspacer"></div>
-        <div class="feedbox pad-left">
-            
-        </div>
-        <div class="bigspacer"></div>
-    </div> -->
-    <!-- <div class="col-md-4"> -->
+<hr class="featurette-divider">
+<div class="col-lg-12">
 		<div class="head">
-			<a class="off" href="/papers/">
+			<a href="/papers/">
 				Recent papers
 			</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">		
+		<div class="col-lg-12 reduced-gutter">
+			<div class="pad-left">		
 			
 				<div class="note">
 					<i class="fa fa-file-text-o fa-fw"></i>
@@ -212,43 +210,47 @@
 				<div class="spacer"></div>	
 				<div class="spacer"></div>				
 			
+			</div>
 		</div>
 		<div class="bigspacer"></div>		
-    <!-- </div> -->
-    <!-- <div class="col-md-4">
-        <div class="head">
-            <a class="off" href="/projects/">Active projects</a>
-        </div>
-        <div class="bigspacer"></div>
-        <div class="feedbox pad-left">
-            
-        </div>
-        <div class="bigspacer"></div>
-    </div>     -->
 </div>
 
-<div class="bigspacer"></div>
-
-
-<div class="head">		
-	Misc
-</div>
 <div class="spacer"></div>
-<ul class="list-inline">
-	
-	<li class="footernav">
-		&gt; <a class="off" href="/misc/join/">Join</a>
-	</li>
-	
-	<li class="footernav">
-		&gt; <a class="off" href="/misc/contact/">Contact</a>
-	</li>
-	
-	<li class="footernav">
-		&gt; <a class="off" href="/misc/about/">About</a>
-	</li>
-	
-</ul>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="head">
+			Misc
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-lg-12 reduced-gutter">
+		<div class="pad-left">
+			<ul class="list-inline">
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/join/">Join</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/contact/">Contact</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/misc/about/">About</a>
+				</li>
+				
+				<li class="footernav list-inline-item">
+					<i class="fa fa-angle-right"></i> <a class="off" href="/talks/">Talks</a>
+				</li>
+			</ul>
+		</div>
+		<div class="spacer"></div>
+	</div>
+</div>
 
 
 
