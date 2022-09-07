@@ -8,7 +8,7 @@ journal: Nature Communications
 year: 2022
 pdf: /pdfs/papers/kim-hash-ladders.pdf
 doi: 10.1038/s41467-022-30309-4
-projects:  Single Cell RNA-seq
+projects:  Single Cell RNA-seq, Single-cell chemical transcriptomics
 led_by_lab: True
 categories: papers
 ---

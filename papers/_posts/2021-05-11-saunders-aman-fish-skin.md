@@ -8,7 +8,7 @@ journal: "bioRxiv"
 year: 2021
 pdf: /pdfs/papers/aman_saunders_biorxiv_2021.pdf
 doi: 10.1101/2021.05.12.443782
-projects:  Single Cell RNA-seq
+projects:  Single Cell RNA-seq, Zebrafish developmental genetics at single-cell resolution
 led_by_lab: False
 categories: papers
 ---

@@ -7,6 +7,7 @@ description: Transcript assembly and expression analysis for RNA-Seq
 repo: cole-trapnell-lab/cufflinks
 externurl: cufflinks.cbcb.umd.edu/
 project_type: Software
+active_project: false
 ---
 
 ![](/images/projects/cufflinks-fhl3.png)

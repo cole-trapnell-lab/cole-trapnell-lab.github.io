@@ -4,7 +4,8 @@ title: Gene regulation by noncoding DNA
 image: /images/projects/gene-reg.png
 year: 2015
 description: Understanding how sequence and epigenetic state of noncoding elements directs gene expression
-project_type: Biology
+project_type: Biology, Gene regulation
+active_project: true
 ---
 
 ![](/images/projects/worm-tf-model.png)

@@ -8,7 +8,7 @@ journal: bioRxiv
 year: 2022
 pdf: /pdfs/papers/saunders-srivatsan-zf-crispants.pdf
 doi: 10.1101/2022.08.04.502764
-projects:  Single Cell RNA-seq
+projects:  Single Cell RNA-seq, Zebrafish developmental genetics at single-cell resolution, Massively multiplexed single-cell perturbation experiments
 led_by_lab: True
 categories: papers
 ---

@@ -8,7 +8,7 @@ journal: Science
 year: 2022
 pdf: /pdfs/papers/calderon-DEAP.pdf
 doi: 10.1126/science.abn5800
-projects:  Single Cell RNA-seq
+projects:  Single Cell RNA-seq, Single-cell ATAC-Seq, Gene regulation by noncoding DNA
 led_by_lab: False
 categories: papers
 ---

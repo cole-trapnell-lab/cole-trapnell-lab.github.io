@@ -4,7 +4,8 @@ title: Pluripotency and reprogramming
 image: /images/papers/gifford-ziller-esc-epigenetics.png
 year: 2014
 description: Self-renewal and pluripotency in embryonic stem cells and iPS cells
-project_type: Biology
+project_type: Biology, Development
+active_project: false
 ---
 
 ![](/images/projects/hifT-reprogramming.png)

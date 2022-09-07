@@ -8,7 +8,7 @@ journal: "Nature Genetics"
 year: 2019
 pdf: /pdfs/papers/mcfaline_emt_natgen.pdf
 doi: 10.1038/s41588-019-0489-5
-projects:
+projects: Single-cell RNA-Seq, Single-cell trajectory analysis, Massively multiplexed single-cell perturbation experiments
 led_by_lab: True
 categories: papers
 ---

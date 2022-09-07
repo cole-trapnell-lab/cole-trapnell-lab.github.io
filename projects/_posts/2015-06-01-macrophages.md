@@ -4,7 +4,8 @@ title: Plasticity in macrophages
 image: /images/papers/suzuki-pmt.png
 year: 2015
 description: Macrophage polarization in health and disease
-project_type: Biology
+project_type: Disease
+active_project: true
 ---
 
 ![](/images/projects/macrophage-plasticity.png)

@@ -5,6 +5,7 @@ image: /images/papers/trapnell-cacchiarelli-monocle.png
 year: 2015
 description: Unsupervised learning of cell state changes
 project_type: Technology
+active_project: true
 ---
 
 ![](/images/projects/sc-trajectory-olfr.png)

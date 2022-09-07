@@ -4,7 +4,8 @@ title: An RNA atlas of the worm
 image: /images/projects/worm-drawing.png
 year: 2017
 description: "An atlas of gene expression profiles for every cell in C. elegans"
-project_type: Biology
+project_type: Biology, Development
+active_project: false
 ---
 
 ![](/images/projects/worm-cell-atlas-large.png)

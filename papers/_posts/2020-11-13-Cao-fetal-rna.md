@@ -8,7 +8,7 @@ journal: "Science"
 year: 2020
 pdf: /pdfs/papers/Cao_fetal-rna_Science_2020.pdf
 doi: 10.1126/science.aba7721
-projects:  Single Cell RNA-seq
+projects:  Single Cell RNA-seq, A Human Cell Atlas
 led_by_lab: False
 categories: papers
 ---

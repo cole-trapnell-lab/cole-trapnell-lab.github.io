@@ -4,7 +4,8 @@ title: An atlas of gene regulation in the mouse
 image: /images/projects/mouse-atlas.png
 year: 2018
 description: "An atlas of gene regulation for all cell types in the mouse"
-project_type: Biology
+project_type: Biology, Gene regulation
+active_project: true
 ---
 
 ![](/images/projects/mouse-gene-reg-atlas-large.png)

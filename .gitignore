@@ -10,8 +10,8 @@ environment*
 _site/
 
 # Projects
-projects/
-!projects/index.html
+#projects/
+#!projects/index.html
 
 # Jekyll build process
 .jekyll-cache

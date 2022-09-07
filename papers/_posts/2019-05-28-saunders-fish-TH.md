@@ -8,7 +8,7 @@ journal: "eLife"
 year: 2019
 pdf: /pdfs/papers/Saunders_elife_2019.pdf
 doi: 10.7554/eLife.45181
-projects:  Single-cell RNA-Seq, Single-cell trajectory analysis
+projects:  Single-cell RNA-Seq, Single-cell trajectory analysis, Zebrafish developmental genetics at single-cell resolution
 led_by_lab: True
 categories: papers
 ---

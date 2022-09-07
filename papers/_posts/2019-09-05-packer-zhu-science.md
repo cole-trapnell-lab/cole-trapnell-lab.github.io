@@ -8,7 +8,7 @@ journal: "Science"
 year: 2019
 pdf: /pdfs/papers/Packer_Zhu_science_2019.pdf
 doi: 10.1126/science.aax1971
-projects:
+projects: An RNA atlas of the worm
 led_by_lab: True
 categories: papers
 ---

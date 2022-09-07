@@ -8,7 +8,7 @@ journal: "bioRxiv"
 year: 2021
 pdf: /pdfs/papers/Hadland_etal_biorxiv_2021.pdf
 doi: 10.1101/2021.01.25.427999
-projects:  Single cell RNA-seq
+projects:  Single cell RNA-seq, Pluripotency and reprogramming 
 led_by_lab: False
 categories: papers
 ---

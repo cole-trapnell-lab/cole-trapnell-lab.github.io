@@ -9,7 +9,7 @@ journal: "Nature Methods"
 pdf: /pdfs/papers/ajhill_mcfaline-cropseq.pdf
 doi: 10.1038/nmeth.4604
 #externurl: "https://elifesciences.org/articles/32303"
-projects: Single-cell RNA-Seq
+projects: Single-cell RNA-Seq, Massively multiplexed single-cell perturbation experiments
 led_by_lab: True
 categories: papers
 ---
