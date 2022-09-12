@@ -8,7 +8,7 @@ journal: "Science"
 year: 2021
 pdf: /pdfs/papers/srivatsan_regier_scispace_2021.pdf
 doi: 10.1126/science.abb9536
-projects:  Single Cell RNA-seq, An atlas of gene regulation in the mouse
+projects:  Single-cell RNA-Seq, An atlas of gene regulation in the mouse
 led_by_lab: True
 categories: papers
 ---
