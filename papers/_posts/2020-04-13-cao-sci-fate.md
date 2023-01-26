@@ -8,7 +8,7 @@ journal: "Nature Biotechnology"
 year: 2020
 pdf: /pdfs/papers/Cao_sci-fate_nbt_2020.pdf
 doi: 10.1038/s41587-020-0480-9
-projects:
+projects: Single-cell RNA-Seq
 led_by_lab: False
 categories: papers
 ---

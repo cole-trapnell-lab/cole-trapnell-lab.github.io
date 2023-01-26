@@ -8,7 +8,7 @@ journal: "Scientific Reports"
 year: 2020
 pdf: /pdfs/papers/liu_SciRep_2020.pdf
 doi: 10.1038/s41598-020-68766-w
-projects:  Macrophages
+projects:  Plasticity in macrophages
 led_by_lab: True
 categories: papers
 ---
