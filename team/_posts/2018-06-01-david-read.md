@@ -7,7 +7,7 @@ email: readdf@uw.edu
 github: daread
 #scholar: Cp6vXY8AAAAJ&hl
 image: /images/team/david-read.JPG
-alumni: false
+alumni: true
 #cv: /pdfs/team/jose-mcfaline-cv.pdf
 ---
 

@@ -9,7 +9,7 @@ email: rjgtwo@uw.edu
 #scholar: 
 image: /images/team/rula-green-gladden.jpg
 #cv: 
-alumni: false
+alumni: true
 ---
 
 I am a physician currently in fellowship in pediatric hematology/oncology. My research in the Trapnell lab focuses on using single cell genomics to understand mechanisms of AML resistance to treatment.
