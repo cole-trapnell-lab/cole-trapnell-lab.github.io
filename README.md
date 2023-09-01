@@ -21,8 +21,8 @@ The `layout`, `title` and `author` tags are required, while `link` and `image` a
 
 ## For more information
 
-* Look over the [metadata format guide](http://trapnell.io/guide/format/)
-* Look over the [Markdown style guide](http://trapnell.io/guide/style/)
+* Look over the [metadata format guide](http://cole-trapnell-lab.github.io/guide/format/)
+* Look over the [Markdown style guide](http://cole-trapnell-lab.github.io/guide/style/)
 
 ## License
 
