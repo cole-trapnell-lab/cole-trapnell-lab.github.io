@@ -1,6 +1,6 @@
 ---
 layout: member
-title: José McFaline
+title: José McFaline-Figueroa
 position: Postdoctoral Fellow
 handle: joselmc
 email: jm5200@columbia.edu

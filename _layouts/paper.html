@@ -80,6 +80,17 @@ layout: default
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+			{% if page.preprint %}
+			<div class="smallhead">
+				Preprint
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/{{ page.preprint }}">{{ page.preprint }}</a>
+			</div>
+			<div class="bigspacer"></div>
+			{% endif %}
 			{% if page.github %}
 			<div class="smallhead">
 				Source code
@@ -91,10 +102,11 @@ layout: default
 			</div>
 			<div class="bigspacer"></div>
 			{% endif %}
+			<!--
 			<div class="smallhead">
 				Share
 			</div>
-<!-- 			<div class="pad-left note">
+ 			<div class="pad-left note">
 				<div class="smallspacer"></div>
 				{% tweet {{page.url}} {{page.title}} %}
 				{% trackback {{page.url}} %}
