@@ -6,7 +6,7 @@ handle: waltno
 email: waltno@uw.edu
 github: waltno
 scholar: FXrlFeYAAAAJ
-image: /images/team/oliva-waltner.jpg
+image: /images/team/olivia-waltner.jpg
 #cv: 
 alumni: false
 ---
