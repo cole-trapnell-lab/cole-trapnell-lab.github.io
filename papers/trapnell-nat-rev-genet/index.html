@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Revealing gene function with statistical inference at single-cell resolution</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>	
+		
+	<!-- Typekit -->
+	<!-- <script>
+		(function(d) {
+			var config = {
+			kitId: 'xeu8jut',
+			scriptTimeout: 3000
+			},
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	</script> -->
+
+
+	<!-- Google Analytics -->	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58618307-1', 'cole-trapnell-lab.github.io');
+		ga('send', 'pageview');
+
+	</script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
+			
+</head>
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					Trapnell lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/papers/">Papers</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/projects/">Projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">Team</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-4">
+
+	<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object" src="/images/papers/trapnell-nat-rev-genet.png" style="max-width:150px">
+			
+			<div class="media-body">
+				<div class="title media-heading">
+					Revealing gene function with statistical inference at single-cell resolution
+				</div>
+				<p>
+				<div class="smallhead">
+					Cole Trapnell
+					<br>
+
+          </div>
+					<div class="bigspacer"></div>
+                <div class="smallhead">
+					Nature Reviews Genetics
+					(2024)
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note">
+			
+			<div class="smallhead">
+				PDF
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/pdfs/papers/trapnell-sc-nat-gen-rev.pdf">trapnell-sc-nat-gen-rev.pdf</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			
+			
+			<div class="smallhead">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.1038/s41576-024-00750-w">10.1038/s41576-024-00750-w</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			
+			<!--
+			<div class="smallhead">
+				Share
+			</div>
+ 			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://bedford.io/papers/trapnell-nat-rev-genet/&text=Revealing%20gene%20function%20with%20statistical%20inference%20at%20single-cell%20resolution" target="_blank">tweet</a>
+				
+			</div>		 -->
+			</div>
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<p>Single-cell and spatial molecular profiling assays have shown large gains in sensitivity, resolution and throughput. Applying these technologies to specimens from human and model organisms promises to comprehensively catalogue cell types, reveal their lineage origins in development and discern their contributions to disease pathogenesis. Moreover, rapidly dropping costs have made well-controlled perturbation experiments and cohort studies widely accessible, illuminating mechanisms that give rise to phenotypes at the scale of the cell, the tissue and the whole organism. Interpreting the coming flood of single-cell data, much of which will be spatially resolved, will place a tremendous burden on existing computational pipelines. However, statistical concepts, models, tools and algorithms can be repurposed to solve problems now arising in genetic and molecular biology studies of development and disease. Here, I review how the questions that recent technological innovations promise to answer can be addressed by the major classes of statistical tools.</p>
+
+<p><strong>One Sentence Summary:</strong> Advances in single-cell and spatial molecular profiling enable detailed cell-type mapping, disease insights, and large-scale studies, requiring robust statistical tools for data interpretation.</p>
+
+
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+
+	</div>
+
+	<div id="footer"><span style="display:none">foo</span></div>
+
+</body>
+</html>
+
