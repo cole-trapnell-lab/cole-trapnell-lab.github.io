@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Oliva Waltner
+title: Olivia Waltner
 position: Graduate student
 handle: waltno
 email: waltno@uw.edu

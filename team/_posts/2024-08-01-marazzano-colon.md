@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Marrazzano Colon
+title: Marazzano Colon
 position: Graduate student
 handle: mdcolon
 email: mdcolon@uw.edu
