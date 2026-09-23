@@ -7,7 +7,7 @@ email: acmullen@uw.edu
 pubmed: https://www.ncbi.nlm.nih.gov/myncbi/andrew.mullen.1/bibliography/public/
 image: /images/team/andrew-mullen.jpg
 cv: /pdfs/team/MullenCV.pdf
-alumni: false
+alumni: true
 github: https://github.com/acmullen-med
 twitter: https://twitter.com/acmullen
 ---
