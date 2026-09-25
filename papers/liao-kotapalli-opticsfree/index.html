@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Optics-free reconstruction of shapes, images, and volumes with DNA barcode proximity graphs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Customized Bootstrap + Font Awesome + Solarized -->
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="/images/favicon.png"/>	
+		
+	<!-- Typekit -->
+	<!-- <script>
+		(function(d) {
+			var config = {
+			kitId: 'xeu8jut',
+			scriptTimeout: 3000
+			},
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	</script> -->
+
+
+	<!-- Google Analytics -->	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-58618307-1', 'cole-trapnell-lab.github.io');
+		ga('send', 'pageview');
+
+	</script>
+
+	<!-- Bootstrap -->
+	<script src="/js/bootstrap.min.js"></script>
+			
+</head>
+
+<body>
+
+	<div id="header">
+		<nav class="navbar navbar-expand-md navbar-light bg-navbar">
+			<div class="container">
+				
+				<a class="navbar-brand" href="/">
+					<img class="logo navbar-brand d-inline-block align-top ml-0 mr-1" src="/images/logo.svg">
+					Trapnell lab
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav nav-pills ml-auto">
+						
+						<li class="nav-link active">
+						
+						<a class="mx-1" href="/papers/">Papers</a>
+						</li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/projects/">Projects</a></li>
+						
+						<li class="nav-link">
+						
+						<a class="mx-1" href="/team/">Team</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container mt-4">
+
+	<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="media">
+			
+			<img class="pull-left pad-right media-object" src="/images/papers/liao-kottapalli-spatial.png" style="max-width:150px">
+			
+			<div class="media-body">
+				<div class="title media-heading">
+					Optics-free reconstruction of shapes, images, and volumes with DNA barcode proximity graphs
+				</div>
+				<p>
+				<div class="smallhead">
+					Hanna Liao<sup>#</sup>, Sanjay Kottapalli<sup>#</sup>, Yuqi Huang, Matthew Chaw, Jase Gehring, Olivia Waltner, Melissa Phung-Rojas, Riza M. Daza, Frederick A. Matsen IV, Cole Trapnell, Jay Shendure**, Sanjay Srivatsan**
+					<br>
+
+          </div>
+					<div class="bigspacer"></div>
+                <div class="smallhead">
+					eLife
+					(2026)
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="bigspacer"></div>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="bigspacer"></div>
+		<div class="glyphbox note">
+			
+			<div class="smallhead">
+				PDF
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-file-text-o fa-fw"></i>
+				<a class="off" href="/pdfs/papers/liao-kottapalli-spatial.pdf">liao-kottapalli-spatial.pdf</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			
+			
+			<div class="smallhead">
+				DOI
+			</div>
+			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-external-link fa-fw"></i>
+				<a class="off" href="http://dx.doi.org/10.7554/eLife.110436.2">10.7554/eLife.110436.2</a>
+			</div>
+			<div class="bigspacer"></div>
+			
+			
+			
+			<!--
+			<div class="smallhead">
+				Share
+			</div>
+ 			<div class="pad-left note">
+				<div class="smallspacer"></div>
+				<i class="fa fa-twitter fa-fw"></i> <a class="off" href="http://twitter.com/share?url=http://bedford.io/papers/liao-kotapalli-opticsfree/&text=Optics-free%20reconstruction%20of%20shapes,%20images,%20and%20volumes%20with%20DNA%20barcode%20proximity%20graphs" target="_blank">tweet</a>
+				
+			</div>		 -->
+			</div>
+	</div>
+	<div class="col-md-8">
+		<div class="post">
+			<h1 id="abstract">Abstract</h1>
+
+<p>Spatial genomics technologies include imaging- and sequencing-based methods. Sequencing-based spatial methods typically require surfaces coated with coordinate-associated DNA barcodes, but the physical registration of these barcodes to spatial coordinates is challenging, necessitating either high density printing of oligonucleotides or in situ sequencing/probing of randomly deposited, DNA-barcode-bearing beads. As a consequence, the surface areas available to sequencing-based spatial genomic methods are constrained by the time, labor, cost and instrumentation required to either print or decode a coordinate-tagged surface. To address this challenge, we developed SCOPE (Spatial reConstruction via Oligonucleotide Proximity Encoding), an optics-free, DNA microscopy-inspired method. With SCOPE, the relative positions of DNA-barcoded beads within a 2D shape, 2D image or 3D volume are inferred from the ex situ sequencing of chimeric molecules formed from diffusing “sender” and tethered “receiver” oligonucleotides. To demonstrate the potential of this approach, we applied SCOPE to reconstruct 2D shapes, 2D images or 3D volumes defined by 104-106 x 20-100 µm DNA barcoded beads, including an asymmetric “swoosh” resembling the Nike logo (44 mm2), a “color” Snellen eye chart (704 mm2) and the surface topology of 3D molds of a teddy bear, star, butterfly or block letter (75-100 mm3). Each of the resulting “DNA barcode proximity graphs” was computationally reconstructed in an automated fashion, across fields of view and at resolutions that were determined by sequencing depth, bead size and diffusion kinetics, rather than by microarray or microscope instrument time. Because the ground truth shapes are known, these datasets may be particularly useful for the further development of computational algorithms by this nascent field.</p>
+
+<p><strong>One Sentence Summary:</strong></p>
+
+<p>The paper introduces SCOPE, an optics-free method that uses DNA barcode proximity interactions and sequencing to computationally reconstruct spatial information from large 2D images and 3D volumes without microscopy.</p>
+
+<p># equal contribution
+** corresponding author</p>
+
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+
+	</div>
+
+	<div id="footer"><span style="display:none">foo</span></div>
+
+</body>
+</html>
+
