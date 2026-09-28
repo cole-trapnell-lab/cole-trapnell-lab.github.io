@@ -4,10 +4,10 @@ title: The regulatory potential of transposable elements in maize
 image: /images/papers/hamm-maizetf.png
 authors: Kerry L. Bubb<sup>#</sup>, Morgan O. Hamm<sup>#</sup>, Thomas W. Tullius, Joseph K. Min, Bryan Ramirez-Corona, Nicholas A. Mueth, Jan Ranchalis, Yizi Mao, Erik J. Bergstrom, Mitchell R. Vollger, Cole Trapnell, Josh T. Cuperus, Andrew B. Stergachis**, Christine Queitsch**
 ref: Bubb & Hamm, et al. 2025.
-journal: Nature
+journal: Nature Plants
 year: 2025
 pdf: /pdfs/papers/hamm-maizetf.pdf
-doi: doi.org/10.1038/s41477-025-02002-z
+doi: 10.1038/s41477-025-02002-z
 preprint: 
 projects:  Gene regulation by noncoding DNA
 led_by_lab: True
