@@ -8,6 +8,7 @@ journal: Nature Communications
 year: 2022
 pdf: /pdfs/papers/hadland-hsc.pdf
 doi: 10.1038/s41467-022-28781-z
+preprint: 10.1101/2021.01.25.427999
 projects:  Single cell RNA-seq, Pluripotency and reprogramming, Single-cell trajectory analysis
 led_by_lab: False
 categories: papers

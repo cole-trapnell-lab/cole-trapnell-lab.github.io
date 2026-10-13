@@ -4,10 +4,11 @@ title: Single-cell analysis of chromatin and expression reveals age- and sex-ass
 image: /images/papers/read-sc-heart.png
 authors: David F Read, Greg Booth*, Riza M Daza*, Dana L Jackson, Rula Green Gladden, Sanjay R Srivatsan, Brent Ewing, Jennifer M Franks, Cailyn H Spurrell, Anne Roshella Gomes, Diana O’Day, Aishwarya A Gogate, Beth K Martin, Lea Starita, Yiing Lin, Jay Shendure**, Shin Lin**, Cole Trapnell**
 ref: Read, et al. 2022.
-journal: bioRxiv
+journal: Communications Biology
 year: 2022
-pdf: /pdfs/papers/read_sc_heart.pdf
-doi: 10.1101/2022.07.12.496461
+pdf: /pdfs/papers/read_sc_heart1.pdf
+doi: 10.1038/s42003-024-06582-y
+preprint: 10.1101/2022.07.12.496461
 projects:  Single Cell RNA-seq, Single-cell ATAC-Seq, Gene regulation by noncoding DNA, A Human Cell Atlas
 led_by_lab: True
 categories: papers

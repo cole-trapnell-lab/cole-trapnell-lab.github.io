@@ -7,7 +7,8 @@ ref: Varnum-Finney, et al. 2024.
 journal: bioRxiv
 year: 2024
 pdf: /pdfs/papers/varnum-finney-hemo-endothelium.pdf
-doi: 10.1101/2024.05.24.595249
+doi: 
+preprint: 10.1101/2024.05.24.595249
 projects:  Single-cell RNA-Seq, Massively multiplexed single-cell perturbation experiments
 led_by_lab: False
 categories: papers
